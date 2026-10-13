@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Telas E&amp;M · Catálogo</title>
+<meta name="description" content="Catálogo de telas de E&amp;M Estilos y Tendencias en Gamarra. Precios por metro y por rollo, colores con código y pedidos por WhatsApp.">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+/* Layout: sticky marca arriba → índice de telas en tarjetas → ficha de cada tela con muestrario de colores → pagos y contacto. Un solo tema claro: los colores de tela se ven fieles sobre fondo neutro. */
+:root{
+  --navy:#29395C; --navy-2:#1B2742; --green:#3F8A3A; --green-2:#64A957; --mint:#8CCB7E;
+  --bg:#F5F6F2; --paper:#FFFFFF; --line:#DFE2D8; --muted:#5A6478; --soft:#E9ECE4;
+  --wa:#1FA855;
+  --f-display:'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --f-body:'Figtree', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --r:16px; --gut:16px;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--navy);font-family:var(--f-body);font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:var(--gut)}
+@media (min-width:720px){:root{--gut:28px}}
+:focus-visible{outline:3px solid var(--green-2);outline-offset:2px;border-radius:6px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+
+/* barra */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(245,246,242,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:12px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.brand img{width:40px;height:40px;object-fit:contain}
+.brand b{font-family:var(--f-display);font-weight:400;font-size:24px;line-height:1;white-space:nowrap}
+.brand small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);font-weight:700}
+.bar nav{margin-left:auto;display:flex;gap:4px}
+.bar nav a{font-size:14px;font-weight:600;text-decoration:none;padding:8px 10px;border-radius:999px}
+.bar nav a:hover{background:var(--soft)}
+@media (max-width:560px){.bar nav{display:none}}
+.btn-wa{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--wa);color:#fff;text-decoration:none;font-weight:700;border:0;border-radius:999px;padding:10px 16px;cursor:pointer;white-space:nowrap}
+.btn-wa svg{width:18px;height:18px;flex:none}
+.bar .btn-wa{margin-left:auto;padding:9px 14px;font-size:14px}
+@media (min-width:561px){.bar .btn-wa{margin-left:8px}}
+
+/* portada */
+.hero{padding-block:28px 8px}
+.hero h1{font-family:var(--f-display);font-weight:400;font-size:clamp(40px,9vw,76px);line-height:.95;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.hero h1 em{color:var(--green);font-style:italic}
+.hero p{margin:12px 0 0;color:var(--muted);font-size:17px;max-width:46ch}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.facts span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600}
+
+/* filtros */
+.tools{position:sticky;top:calc(env(safe-area-inset-top,0px) + 61px);z-index:10;background:var(--bg);padding-block:12px 10px}
+.search{display:flex;align-items:center;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:0 14px}
+.search svg{width:18px;height:18px;color:var(--muted);flex:none}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:16px;padding:12px 0;color:var(--navy)}
+.search input:focus{outline:none}
+.search:focus-within{border-color:var(--green-2);box-shadow:0 0 0 3px rgba(100,169,87,.2)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-top:10px;scrollbar-width:none;margin-inline:calc(var(--gut) * -1);padding-inline:var(--gut)}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+
+/* índice */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding-block:6px 32px}
+@media (min-width:720px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}}
+@media (min-width:1000px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.card{display:flex;flex-direction:column;background:var(--paper);border-radius:var(--r);overflow:hidden;text-decoration:none;border:1px solid var(--line);transition:transform .15s ease, box-shadow .15s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(27,39,66,.12)}
+.card .ph{position:relative;aspect-ratio:4/5;background:var(--soft);overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover}
+.card .n{position:absolute;left:8px;bottom:8px;background:rgba(41,57,92,.9);color:#fff;border-radius:999px;padding:4px 9px;font-size:11px;font-weight:700;letter-spacing:.06em}
+.card .tx{padding:10px 12px 12px;display:flex;flex-direction:column;gap:2px}
+.card .cat{font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+.card h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:22px;line-height:1.05}
+.card .pr{font-size:14px;margin-top:4px}
+.card .pr b{font-size:17px}
+.card .pr span{color:var(--muted)}
+main{padding-bottom:24px}
+.empty{padding:40px 0;color:var(--muted);text-align:center}
+
+/* ficha */
+.detail[hidden]{display:none}
+.back{display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-weight:600;text-decoration:none;font-size:15px;padding:8px 0}
+.dh{display:grid;gap:18px;padding-block:10px 22px}
+@media (min-width:820px){.dh{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:start}}
+.dh .ph{border-radius:var(--r);overflow:hidden;aspect-ratio:4/5;background:var(--soft);max-height:70vh}
+@media (max-width:819px){.dh .ph{aspect-ratio:5/4;max-height:none}}
+.dh .ph img{width:100%;height:100%;object-fit:cover}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
+.dh h1{font-family:var(--f-display);font-weight:400;font-size:clamp(42px,8vw,68px);line-height:.95;margin:6px 0 0;text-wrap:balance}
+.price{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.price div{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 14px}
+.price b{display:block;font-size:26px;line-height:1.05;font-variant-numeric:tabular-nums}
+.price span{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+.price .roll{background:var(--navy);border-color:var(--navy);color:#fff}
+.price .roll span{color:var(--mint)}
+.specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:18px}
+.specs div{background:var(--paper);padding:10px 12px;min-width:0}
+.specs dt{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.specs dd{margin:2px 0 0;font-weight:700;font-size:15px}
+.specs .ask{color:var(--muted);font-weight:600}
+.ben{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px}
+.ben li{display:flex;gap:10px;align-items:flex-start;font-size:15.5px}
+.ben svg{flex:none;width:20px;height:20px;color:var(--green);margin-top:1px}
+.uso{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:15px}
+.uso p{margin:0 0 4px}
+.uso .t{color:var(--muted)}
+
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:8px}
+.sec-h h2{font-family:var(--f-display);font-weight:400;font-size:34px;margin:0;line-height:1}
+.sec-h p{margin:0;color:var(--muted);font-size:14px}
+.swatches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding-block:14px 36px}
+@media (min-width:560px){.swatches{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (min-width:900px){.swatches{grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}}
+.sw{border:0;background:none;padding:0;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px}
+.sw .im{position:relative;aspect-ratio:1;border-radius:12px;overflow:hidden;background:var(--soft);border:1px solid var(--line)}
+.sw .im img{width:100%;height:100%;object-fit:cover;transition:transform .2s ease}
+.sw:hover .im img{transform:scale(1.04)}
+.sw .im .nofoto{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--muted);text-align:center;padding:6px}
+.sw .code{font-weight:800;font-size:15px;font-variant-numeric:tabular-nums}
+.sw .nm{font-size:13.5px;color:var(--muted);line-height:1.2}
+.sw.out .im img{filter:grayscale(.55) opacity(.6)}
+.tag-out{position:absolute;left:6px;right:6px;bottom:6px;background:var(--navy);color:#fff;border-radius:8px;padding:4px 6px;font-size:10.5px;font-weight:800;letter-spacing:.08em;text-align:center}
+
+/* panel de pedido */
+.sheet{position:fixed;inset:0;z-index:50;display:flex;align-items:flex-end;justify-content:center;background:rgba(27,39,66,.45)}
+.sheet[hidden]{display:none}
+.sheet .box{background:var(--paper);width:100%;max-width:520px;border-radius:22px 22px 0 0;padding:16px 18px calc(18px + env(safe-area-inset-bottom,0px));max-height:92vh;overflow:auto;animation:up .2s ease}
+@media (min-width:600px){.sheet{align-items:center}.sheet .box{border-radius:22px}}
+@keyframes up{from{transform:translateY(24px);opacity:.6}to{transform:none;opacity:1}}
+.sheet .big{aspect-ratio:1;max-height:42vh;margin-inline:auto;border-radius:14px;overflow:hidden;background:var(--soft)}
+.sheet .big img{width:100%;height:100%;object-fit:cover}
+.sheet .row{display:flex;justify-content:space-between;align-items:start;gap:12px;margin-top:12px}
+.sheet h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:30px;line-height:1}
+.sheet .sub{color:var(--muted);font-size:14px;margin-top:2px}
+.x{border:0;background:var(--soft);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:20px;line-height:1;flex:none}
+.qty{display:flex;gap:10px;margin-top:14px;align-items:stretch}
+.stepper{display:flex;align-items:center;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.stepper button{border:0;background:var(--soft);width:42px;height:46px;font-size:20px;cursor:pointer}
+.stepper input{width:56px;border:0;text-align:center;font:inherit;font-size:18px;font-weight:700;color:var(--navy)}
+.unit{display:flex;border:1px solid var(--line);border-radius:12px;overflow:hidden;flex:1}
+.unit button{flex:1;border:0;background:var(--paper);cursor:pointer;font-weight:700;font-size:14px}
+.unit button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.est{margin-top:10px;font-size:14px;color:var(--muted)}
+.est b{color:var(--navy)}
+.note-out{margin-top:12px;background:var(--soft);border-radius:12px;padding:10px 12px;font-size:14px}
+.sheet .btn-wa{width:100%;margin-top:14px;padding:14px;font-size:16px}
+
+/* info */
+.info{background:var(--navy);color:#fff;margin-top:8px}
+.info .wrap{padding-block:40px 48px;display:grid;gap:28px}
+@media (min-width:900px){.info .wrap{grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}}
+.info h2{font-family:var(--f-display);font-weight:400;font-size:34px;margin:0 0 14px;line-height:1}
+.info h2 em{color:var(--mint)}
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.steps li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px}
+.steps li span{flex:none;width:30px;height:30px;border-radius:50%;background:var(--green-2);color:var(--navy-2);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px}
+.small{font-size:14px;color:#C9D1E2;margin-top:14px}
+.qr{display:flex;gap:14px;align-items:center;background:#fff;color:var(--navy);border-radius:14px;padding:12px}
+.qr img{width:112px;height:112px;flex:none;image-rendering:pixelated}
+.qr b{display:block;font-size:15px}
+.qr span{font-size:13px;color:var(--muted)}
+.banks{display:grid;gap:8px;margin-top:12px}
+.bank{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px 12px}
+.bank > b{font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--mint)}
+.acc{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:6px}
+.acc div{min-width:0}
+.acc small{display:block;font-size:11px;color:#C9D1E2;letter-spacing:.06em}
+.acc code{font-family:var(--f-body);font-weight:700;font-size:14.5px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.copy{border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;border-radius:8px;padding:5px 9px;font-size:12px;font-weight:700;cursor:pointer;flex:none}
+.copy.ok{background:var(--green-2);border-color:var(--green-2);color:var(--navy-2)}
+.contact dl{margin:0;display:grid;gap:12px}
+.contact dt{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mint);font-weight:700}
+.contact dd{margin:2px 0 0;font-size:15.5px}
+.contact a{text-decoration-color:rgba(255,255,255,.4)}
+.contact .btn-wa{margin-top:16px}
+footer{background:var(--navy-2);color:#C9D1E2;font-size:13px}
+footer .wrap{padding-block:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;box-shadow:0 8px 20px rgba(0,0,0,.2);padding:14px;border-radius:50%}
+.fab span{display:none}
+.fab svg{width:26px;height:26px}
+
+.sw .ok{display:none;margin-left:6px;font-style:normal;font-size:11px;font-weight:800;color:var(--green);letter-spacing:.02em}
+.sw.in .ok{display:inline}
+.sw.in .im{outline:3px solid var(--green-2);outline-offset:-3px}
+.btn-add{width:100%;margin-top:14px;padding:14px;border:0;border-radius:999px;background:var(--navy);color:#fff;font-weight:700;font-size:16px;cursor:pointer}
+.btn-link{border:0;background:none;color:var(--muted);font-weight:600;font-size:14px;text-decoration:underline;cursor:pointer;padding:10px 4px}
+.sheet .btn-link{display:block;margin:6px auto 0}
+.hint{margin:10px 0 0;font-size:13px;color:var(--muted);text-align:center}
+.cartbar{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--navy);color:#fff;padding-bottom:env(safe-area-inset-bottom,0px);box-shadow:0 -6px 20px rgba(27,39,66,.2)}
+.cartbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px}
+.cartbar b{display:block;font-size:15px}
+.cartbar span{font-size:13px;color:#C9D1E2}
+.cartbar button{border:0;border-radius:999px;background:var(--wa);color:#fff;font-weight:700;padding:11px 18px;cursor:pointer}
+body:has(.cartbar:not([hidden])) footer{padding-bottom:72px}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;background:var(--navy-2);color:#fff;border-radius:999px;padding:10px 16px;font-size:14px;font-weight:600;max-width:calc(100% - 32px);text-align:center}
+.cart{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:10px}
+.cart li{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:12px;padding:8px}
+.cart .th{flex:none;width:56px;height:56px;border-radius:8px;overflow:hidden;background:var(--soft)}
+.cart .th img{width:100%;height:100%;object-fit:cover}
+.cart .ci{flex:1;min-width:0;display:flex;flex-direction:column;font-size:14px}
+.cart .ci span{color:var(--muted)}
+.cq{display:flex;align-items:center;gap:6px;margin-top:6px;flex-wrap:wrap}
+.cq button{border:1px solid var(--line);background:var(--soft);border-radius:8px;min-width:30px;height:30px;cursor:pointer;font-weight:700}
+.cq span{color:var(--navy)!important;font-weight:700;min-width:70px;text-align:center}
+.cq .cu{font-size:12px;padding:0 8px;background:var(--paper)}
+.cart .rm{border:0;background:none;font-size:20px;color:var(--muted);cursor:pointer;padding:2px 6px}
+.cart-foot{display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#" data-home>
+      <img src="img/logo.png" alt="Logo E&amp;M" width="40" height="40">
+      <span><small>Gamarra · Lima</small><b>Telas E&amp;M</b></span>
+    </a>
+    <nav aria-label="Secciones">
+      <a href="#telas" data-home>Telas</a>
+      <a href="#comprar">Cómo comprar</a>
+      <a href="#pagos">Pagos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn-wa" id="barWa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg><span>Escríbenos</span></a>
+  </div>
+</header>
+
+<main>
+  <section id="home">
+    <div class="wrap hero" id="telas">
+      <h1>Telas para confeccionar <em>con todo el color</em></h1>
+      <p>Elige la tela, mira sus colores y pide por WhatsApp con el código. Vendemos desde 1 metro y con precio especial por rollo.</p>
+      <div class="facts"><span>Desde 1 metro</span><span>Precio por rollo</span><span>Delivery Lima y provincia</span></div>
+    </div>
+    <div class="tools">
+      <div class="wrap">
+        <label class="search" for="q"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="search" placeholder="Busca una tela o un color (ej. licra, vino)" autocomplete="off"></label>
+        <div class="chips" id="chips" role="toolbar" aria-label="Tipo de tela"></div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="detail" id="detail" hidden></section>
+</main>
+
+<section class="info">
+  <div class="wrap">
+    <div id="comprar">
+      <h2>Cómo hacer <em>tu pedido</em></h2>
+      <ol class="steps">
+        <li><span>1</span><div>Elige la tela y toca los colores que te gustan. Agrégalos a <b>tu pedido</b>: puedes juntar varios colores y telas.</div></li>
+        <li><span>2</span><div>Indica cuántos <b>metros</b> o <b>rollos</b> de cada uno y envía todo en <b>un solo mensaje</b> por WhatsApp.</div></li>
+        <li><span>3</span><div>Recoge en tienda o envía tu motorizado. <b>Delivery en Lima</b>: S/ 20. <b>Provincia</b>: S/ 20 hasta la courier que elijas.</div></li>
+      </ol>
+      <p class="small">Vendemos desde 1 metro. El precio por rollo aplica comprando el rollo completo. Precios en soles.</p>
+    </div>
+    <div id="pagos">
+      <h2>Formas <em>de pago</em></h2>
+      <div class="qr"><img src="img/qr-pago.png" alt="QR de pago E&amp;M Estilos y Tendencias SAC"><div><b>Yape, Plin o tu billetera</b><span>Escanea el QR. A nombre de E&amp;M Estilos y Tendencias SAC.</span></div></div>
+      <div class="banks" id="banks"></div>
+      <p class="small">También aceptamos efectivo en tienda. Envíanos tu comprobante por WhatsApp para despachar tu pedido.</p>
+    </div>
+    <div id="contacto" class="contact">
+      <h2>Visítanos <em>en Gamarra</em></h2>
+      <dl>
+        <div><dt>Tienda</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=Jr.+San+Crist%C3%B3bal+1566,+La+Victoria,+Lima" target="_blank" rel="noopener">Jr. San Cristóbal 1566, Gamarra · La Victoria</a></dd></div>
+        <div><dt>Horario</dt><dd>Lunes a viernes · 10 am a 8 pm<br>Sábados · 10 am a 5 pm</dd></div>
+        <div><dt>WhatsApp</dt><dd>+51 981 095 297</dd></div>
+        <div><dt>Redes</dt><dd>@telaseym en <a href="https://www.instagram.com/telaseym" target="_blank" rel="noopener">Instagram</a>, <a href="https://www.tiktok.com/@telaseym" target="_blank" rel="noopener">TikTok</a> y <a href="https://www.facebook.com/telaseym" target="_blank" rel="noopener">Facebook</a></dd></div>
+      </dl>
+      <a class="btn-wa" id="infoWa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>Escríbenos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap"><span>E&amp;M Estilos y Tendencias SAC · Telas importadas</span><span id="upd"></span></div></footer>
+
+<a class="btn-wa fab" id="fab" href="#" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg><span>WhatsApp</span></a>
+
+<div class="cartbar" id="cartBar" hidden><div class="wrap"><div><b>Mi pedido</b><span id="cartCount"></span></div><button id="cartOpen">Ver y enviar</button></div></div>
+<div class="toast" id="toast" hidden role="status"></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="shTitle"><div class="box" id="sheetBox"></div></div>
+
+<script>
+const WA = '51981095297';
+const CATS = [['todas','Todas'],['licras','Licras'],['sastreria','Sastrería'],['fluidas','Linos y fluidas'],['encajes','Encajes y bordados'],['fiesta','Fiesta']];
+const BANKS = [
+  ['BCP', [['Soles','193-2236527-0-80','0021-9300-2236-5270-8014'],['Dólares','193-2247994-1-18','0021-9300-2247-9941-1813']]],
+  ['Interbank', [['Soles','200-3007574043','003-200-0030-0757-4043-38'],['Dólares','200-3007574050','003-200-0030-0757-4050-33']]],
+  ['Caja Piura', [['Soles','210-01-1384062',''],['Dólares','210-02-3002440','']]]
+];
+const ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>';
+const waLink = t => 'https://wa.me/' + WA + '?text=' + encodeURIComponent(t);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+let DATA = [], cat = 'todas';
+
+['barWa','infoWa','fab'].forEach(id => document.getElementById(id).href = waLink('Hola, vi el catálogo web de Telas E&M y quiero hacer una consulta.'));
+
+document.getElementById('banks').innerHTML = BANKS.map(([b, accs]) =>
+  `<div class="bank"><b>${b}</b>${accs.map(([m,n,cci]) =>
+    `<div class="acc"><div><small>${m}</small><code>${n}</code>${cci ? `<small>CCI ${cci}</small>` : ''}</div><button class="copy" data-copy="${n}">Copiar</button></div>`).join('')}</div>`).join('');
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-copy]'); if (!b) return;
+  const done = () => { b.textContent = 'Copiado'; b.classList.add('ok'); setTimeout(() => { b.textContent = 'Copiar'; b.classList.remove('ok'); }, 1600); };
+  try { navigator.clipboard.writeText(b.dataset.copy).then(done, () => { selectText(b.previousElementSibling.querySelector('code')); }); } catch (_) { selectText(b.previousElementSibling.querySelector('code')); }
+});
+function selectText(el){ const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+
+document.getElementById('chips').innerHTML = CATS.map(([k,l]) => `<button class="chip" data-cat="${k}" aria-pressed="${k==='todas'}">${l}</button>`).join('');
+document.getElementById('chips').addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return; cat = b.dataset.cat;
+  document.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
+  renderGrid();
+});
+document.getElementById('q').addEventListener('input', renderGrid);
+
+function renderGrid(){
+  const q = norm(document.getElementById('q').value.trim());
+  const list = DATA.filter(f => (cat === 'todas' || f.cat === cat) &&
+    (!q || norm(f.name + ' ' + f.sub + ' ' + f.colors.map(c => c.name).join(' ')).includes(q)));
+  document.getElementById('grid').innerHTML = list.length ? list.map(f => `
+    <a class="card" href="#${f.slug}">
+      <div class="ph"><img src="${f.hero}" alt="${esc(f.name)}" loading="lazy"><span class="n">${f.colors.length} COLORES</span></div>
+      <div class="tx"><span class="cat">${esc(CATS.find(c=>c[0]===f.cat)[1])}</span><h3>${esc(f.name)}</h3>
+      <div class="pr"><b>S/ ${f.pm}</b> el metro<br><span>S/ ${f.pr} por rollo</span></div></div>
+    </a>`).join('') : `<p class="empty" style="grid-column:1/-1">No encontramos esa tela. Prueba con otro nombre o escríbenos por WhatsApp.</p>`;
+}
+
+function spec(label, v){ const ask = !v || v === 'Consultar'; return `<div><dt>${label}</dt><dd class="${ask?'ask':''}">${ask ? 'Consultar' : esc(v)}</dd></div>`; }
+
+function renderDetail(f){
+  const out = f.colors.filter(c => c.agotado).length;
+  const d = document.getElementById('detail');
+  d.innerHTML = `<div class="wrap">
+    <a class="back" href="#telas" data-home>← Todas las telas</a>
+    <div class="dh">
+      <div class="ph"><img src="${f.hero}" alt="${esc(f.name)}"></div>
+      <div>
+        <div class="eyebrow">${esc(f.sub)}</div>
+        <h1>${esc(f.name)}</h1>
+        <div class="price"><div><b>S/ ${f.pm}</b><span>el metro</span></div><div class="roll"><b>S/ ${f.pr}</b><span>por rollo</span></div></div>
+        <dl class="specs">${spec('Composición', f.comp)}${spec('Ancho', f.ancho)}${spec('Rollo', f.rollo ? 'aprox. ' + f.rollo : '')}${spec('Peso', f.peso)}${spec('Elasticidad', f.elast)}</dl>
+        <ul class="ben">${f.ben.map(b => `<li>${ICON_CHECK}<span>${esc(b)}</span></li>`).join('')}</ul>
+        <div class="uso"><p><b>Ideal para:</b> ${esc(f.usos)}</p><p class="t">Temporada: ${esc(f.temp)}</p></div>
+      </div>
+    </div>
+    <div class="sec-h"><h2>${f.colors.length} colores</h2><p>Toca los colores que quieras y agrégalos a tu pedido${out ? ` · ${out} agotado${out>1?'s':''} por ahora` : ''}</p></div>
+    <div class="swatches">${f.colors.map((c,i) => `
+      <button class="sw${c.agotado?' out':''}" data-i="${i}" data-k="${f.slug}|${i}" aria-label="${c.code ? 'Código ' + c.code + ' ' : ''}${esc(c.name)}${c.agotado?', agotado':''}">
+        <span class="im">${c.img ? `<img src="${c.img}" alt="" loading="lazy">` : '<span class="nofoto">Foto pronto</span>'}${c.agotado ? '<span class="tag-out">AGOTADO</span>' : ''}</span>
+        <span class="code">${c.code || esc(c.name)}<i class="ok" aria-label="en tu pedido">✓ En pedido</i></span><span class="nm">${c.code ? esc(c.name) : ''}</span>
+      </button>`).join('')}</div>
+  </div>`;
+  d.querySelector('.swatches').addEventListener('click', e => { const b = e.target.closest('.sw'); if (b) openSheet(f, f.colors[+b.dataset.i], +b.dataset.i); });
+  markSwatches();
+}
+
+/* ---------- pedido (varios colores en un solo mensaje) ---------- */
+let CART = [];
+try { CART = JSON.parse(localStorage.getItem('em_pedido') || '[]'); } catch (_) { CART = []; }
+const saveCart = () => { try { localStorage.setItem('em_pedido', JSON.stringify(CART)); } catch (_) {} renderCartBar(); markSwatches(); };
+const keyOf = (f, i) => f.slug + '|' + i;
+const unitLabel = (q, u) => q === 1 ? u.slice(0, -1) : u;
+
+function renderCartBar(){
+  const bar = document.getElementById('cartBar');
+  const n = CART.length;
+  bar.hidden = !n;
+  document.getElementById('fab').hidden = !!n;
+  if (n) document.getElementById('cartCount').textContent = n + (n === 1 ? ' color' : ' colores');
+}
+function markSwatches(){
+  document.querySelectorAll('.sw[data-k]').forEach(b => b.classList.toggle('in', CART.some(x => x.k === b.dataset.k)));
+}
+function toast(msg){
+  const t = document.getElementById('toast'); t.textContent = msg; t.hidden = false;
+  clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 2200);
+}
+function cartMessage(){
+  const groups = {};
+  CART.forEach(x => { (groups[x.fabric] = groups[x.fabric] || []).push(x); });
+  let m = 'Hola, quiero hacer este pedido:\n';
+  Object.entries(groups).forEach(([fab, items]) => {
+    m += `\n*${fab}*\n` + items.map(x => `• ${x.code ? 'Cód. ' + x.code + ' ' : ''}${x.name}: ${x.qty} ${unitLabel(x.qty, x.unit)}`).join('\n') + '\n';
+  });
+  return m + '\n¿Me confirman disponibilidad y el total?';
+}
+
+function openSheet(f, c, i){
+  const box = document.getElementById('sheetBox');
+  const k = keyOf(f, i);
+  const prev = CART.find(x => x.k === k);
+  let qty = prev ? prev.qty : 1, unit = prev ? prev.unit : 'metros';
+  box.innerHTML = `
+    <div class="big">${c.img ? `<img src="${c.img}" alt="${esc(f.name)} ${esc(c.name)}">` : ''}</div>
+    <div class="row"><div><h3 id="shTitle">${esc(c.name)}</h3><div class="sub">${esc(f.name)}${c.code ? ' · Código ' + c.code : ''}</div></div><button class="x" id="shX" aria-label="Cerrar">×</button></div>
+    ${c.agotado ? `<div class="note-out"><b>Agotado por ahora.</b> Llega en el próximo contenedor. Escríbenos y te avisamos apenas esté de vuelta.</div>
+    <a class="btn-wa" target="_blank" rel="noopener" href="${waLink(`Hola, quiero el ${f.name}, ${c.code ? 'código ' + c.code + ' (' + c.name + ')' : 'color ' + c.name}. Vi que está agotado, ¿me avisan cuando llegue?`)}">Avísame cuando llegue</a>` : `
+    <div class="qty">
+      <div class="stepper"><button id="mn" aria-label="Menos">−</button><input id="qn" inputmode="numeric" value="${qty}" aria-label="Cantidad"><button id="pl" aria-label="Más">+</button></div>
+      <div class="unit" role="group" aria-label="Unidad"><button data-u="metros">Metros</button><button data-u="rollos">Rollos</button></div>
+    </div>
+    <div class="est" id="est"></div>
+    <button class="btn-add" id="shAdd"></button>
+    ${prev ? '<button class="btn-link" id="shDel">Quitar del pedido</button>' : '<p class="hint">Puedes agregar varios colores y telas, y enviar todo en un solo mensaje.</p>'}`}`;
+  if (!c.agotado) {
+    const inp = box.querySelector('#qn');
+    const upd = () => {
+      box.querySelectorAll('.unit button').forEach(x => x.setAttribute('aria-pressed', x.dataset.u === unit));
+      box.querySelector('#est').innerHTML = unit === 'metros' ? `Referencial: <b>S/ ${(qty*f.pm).toFixed(2)}</b> por ${qty} ${unitLabel(qty,unit)}` : `Por rollo: <b>S/ ${f.pr} el metro</b>.${f.rollo ? ` Cada rollo trae aprox. <b>${f.rollo}</b>.` : ' Te confirmamos los metros del rollo.'}`;
+      box.querySelector('#shAdd').textContent = (prev ? 'Actualizar: ' : 'Agregar al pedido · ') + qty + ' ' + unitLabel(qty, unit);
+    };
+    const set = v => { qty = Math.max(1, Math.min(999, v|0 || 1)); inp.value = qty; upd(); };
+    box.querySelector('#mn').onclick = () => set(qty-1);
+    box.querySelector('#pl').onclick = () => set(qty+1);
+    inp.oninput = () => set(+inp.value);
+    box.querySelectorAll('.unit button').forEach(b => b.onclick = () => { unit = b.dataset.u; upd(); });
+    box.querySelector('#shAdd').onclick = () => {
+      const item = { k, slug: f.slug, fabric: f.name, code: c.code, name: c.name, img: c.img, qty, unit, pm: f.pm };
+      const j = CART.findIndex(x => x.k === k); if (j >= 0) CART[j] = item; else CART.push(item);
+      saveCart(); closeSheet(); toast(`Agregado: ${f.name} · ${c.code ? c.code + ' ' : ''}${c.name}`);
+    };
+    const del = box.querySelector('#shDel');
+    if (del) del.onclick = () => { CART = CART.filter(x => x.k !== k); saveCart(); closeSheet(); toast('Quitado del pedido'); };
+    upd();
+  }
+  document.getElementById('sheet').hidden = false;
+  box.querySelector('#shX').onclick = closeSheet; box.querySelector('#shX').focus();
+}
+
+function openCart(){
+  document.getElementById('toast').hidden = true;
+  const box = document.getElementById('sheetBox');
+  const draw = () => {
+    if (!CART.length) { closeSheet(); return; }
+    const est = CART.filter(x => x.unit === 'metros').reduce((t, x) => t + x.qty * x.pm, 0);
+    const rolls = CART.some(x => x.unit === 'rollos');
+    box.innerHTML = `
+      <div class="row" style="margin-top:0"><div><h3 id="shTitle">Mi pedido</h3><div class="sub">${CART.length} ${CART.length === 1 ? 'color' : 'colores'}</div></div><button class="x" id="shX" aria-label="Cerrar">×</button></div>
+      <ul class="cart">${CART.map((x, j) => `
+        <li>
+          <span class="th">${x.img ? `<img src="${x.img}" alt="">` : ''}</span>
+          <div class="ci"><b>${esc(x.fabric)}</b><span>${x.code ? 'Cód. ' + x.code + ' · ' : ''}${esc(x.name)}</span>
+            <div class="cq"><button data-a="m" data-j="${j}" aria-label="Menos">−</button><span>${x.qty} ${unitLabel(x.qty, x.unit)}</span><button data-a="p" data-j="${j}" aria-label="Más">+</button><button class="cu" data-a="u" data-j="${j}">${x.unit === 'metros' ? 'Cambiar a rollos' : 'Cambiar a metros'}</button></div>
+          </div>
+          <button class="rm" data-a="r" data-j="${j}" aria-label="Quitar">×</button>
+        </li>`).join('')}</ul>
+      <div class="est">${est ? `Referencial en metros: <b>S/ ${est.toFixed(2)}</b>` : ''}${est && rolls ? '<br>' : ''}${rolls ? 'Los rollos los cotizamos al confirmar.' : ''}</div>
+      <a class="btn-wa" target="_blank" rel="noopener" href="${waLink(cartMessage())}" id="cartSend">Enviar pedido por WhatsApp</a>
+      <div class="cart-foot"><button class="btn-link" id="cartMore">Seguir eligiendo</button><button class="btn-link" id="cartClear">Vaciar pedido</button></div>`;
+    box.querySelector('#shX').onclick = closeSheet;
+    box.querySelector('#cartMore').onclick = closeSheet;
+    box.querySelector('#cartClear').onclick = () => { CART = []; saveCart(); closeSheet(); };
+    box.querySelector('.cart').onclick = e => {
+      const b = e.target.closest('[data-a]'); if (!b) return; const x = CART[+b.dataset.j];
+      if (b.dataset.a === 'p') x.qty = Math.min(999, x.qty + 1);
+      if (b.dataset.a === 'm') x.qty = Math.max(1, x.qty - 1);
+      if (b.dataset.a === 'u') x.unit = x.unit === 'metros' ? 'rollos' : 'metros';
+      if (b.dataset.a === 'r') CART.splice(+b.dataset.j, 1);
+      saveCart(); draw();
+    };
+  };
+  draw();
+  document.getElementById('sheet').hidden = false;
+}
+function closeSheet(){ document.getElementById('sheet').hidden = true; }
+document.getElementById('sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeSheet(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
+
+function route(){
+  const h = location.hash.slice(1);
+  const f = DATA.find(x => x.slug === h);
+  document.getElementById('home').hidden = !!f;
+  document.getElementById('detail').hidden = !f;
+  if (f) { renderDetail(f); document.title = f.name + ' · Telas E&M'; window.scrollTo(0,0); }
+  else { document.title = 'Telas E&M · Catálogo'; }
+}
+window.addEventListener('hashchange', route);
+
+fetch('catalogo.json').then(r => r.json()).then(d => {
+  DATA = d; renderGrid(); route(); renderCartBar();
+  document.getElementById('cartOpen').onclick = openCart;
+  document.getElementById('upd').textContent = 'Precios y stock actualizados';
+}).catch(() => { document.getElementById('grid').innerHTML = '<p class="empty">No se pudo cargar el catálogo. Recarga la página.</p>'; });
+</script>
+
+</body>
+</html>
