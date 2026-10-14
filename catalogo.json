@@ -1148,6 +1148,66 @@
   "heroProv": false
  },
  {
+  "slug": "nansu-rayas",
+  "cat": "fluidas",
+  "name": "Nansú Bautista a rayas",
+  "sub": "NANSÚ · DISEÑO A RAYAS",
+  "hero": "img/nansu-rayas/portada.jpg",
+  "pm": null,
+  "pr": null,
+  "comp": "Consultar",
+  "ancho": "Consultar",
+  "peso": "Consultar",
+  "elast": "Sin elasticidad o muy baja",
+  "ben": [
+   "Ligero y fresco al vestir",
+   "Textura suave y agradable",
+   "Diseño clásico de rayas",
+   "Ideal para prendas holgadas y de clima cálido"
+  ],
+  "usos": "camisas, blusas, vestidos, faldas, shorts, pantalones ligeros y conjuntos",
+  "temp": "Primavera · verano",
+  "heroProv": true,
+  "colors": [
+   {
+    "code": "",
+    "name": "Negro",
+    "img": "img/nansu-rayas/01.jpg",
+    "agotado": false
+   },
+   {
+    "code": "",
+    "name": "Celeste",
+    "img": null,
+    "agotado": false
+   },
+   {
+    "code": "",
+    "name": "Azul",
+    "img": "img/nansu-rayas/03.jpg",
+    "agotado": false
+   },
+   {
+    "code": "",
+    "name": "Marrón",
+    "img": null,
+    "agotado": false
+   },
+   {
+    "code": "",
+    "name": "Olivo",
+    "img": null,
+    "agotado": false
+   },
+   {
+    "code": "",
+    "name": "Palo rosa",
+    "img": null,
+    "agotado": false
+   }
+  ]
+ },
+ {
   "slug": "licra-tachas",
   "cat": "licras",
   "name": "Licra tachas",
