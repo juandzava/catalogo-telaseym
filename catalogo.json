@@ -1153,8 +1153,8 @@
   "name": "Nansú Batista a rayas",
   "sub": "NANSÚ · DISEÑO A RAYAS",
   "hero": "img/nansu-rayas/portada.jpg",
-  "pm": null,
-  "pr": null,
+  "pm": 12,
+  "pr": 11,
   "comp": "98% poliéster / 2% spandex",
   "ancho": "1.46 m",
   "peso": "115 g/m²",
@@ -1167,7 +1167,7 @@
   ],
   "usos": "camisas, blusas, vestidos, faldas, shorts, pantalones ligeros y conjuntos",
   "temp": "Primavera · verano",
-  "heroProv": true,
+  "heroProv": false,
   "colors": [
    {
     "code": "",
@@ -1178,7 +1178,7 @@
    {
     "code": "",
     "name": "Celeste",
-    "img": null,
+    "img": "img/nansu-rayas/02.jpg",
     "agotado": false
    },
    {
@@ -1190,19 +1190,19 @@
    {
     "code": "",
     "name": "Marrón",
-    "img": null,
+    "img": "img/nansu-rayas/04.jpg",
     "agotado": false
    },
    {
     "code": "",
     "name": "Olivo",
-    "img": null,
+    "img": "img/nansu-rayas/05.jpg",
     "agotado": false
    },
    {
     "code": "",
     "name": "Palo rosa",
-    "img": null,
+    "img": "img/nansu-rayas/06.jpg",
     "agotado": false
    }
   ]
