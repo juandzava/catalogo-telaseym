@@ -1,2062 +1,2147 @@
 [
- {
-  "slug": "licra-americana",
-  "cat": "licras",
-  "name": "Licra americana",
-  "sub": "LICRAS · COLOR ENTERO",
-  "hero": "img/licra-americana/portada.jpg",
-  "pm": 16,
-  "pr": 15,
-  "comp": "84% nylon / 16% spandex",
-  "ancho": "1.60 m",
-  "peso": "250 g/m",
-  "elast": "En ambos sentidos",
-  "ben": [
-   "No transparenta",
-   "Brillo ligero, buena caída",
-   "No se jala ni hace pelotitas",
-   "Resiste confección y lavados"
-  ],
-  "usos": "vestidos, tops, ropa de baño y deportiva",
-  "temp": "Verano · otoño",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/licra-americana/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Azul noche",
-    "img": "img/licra-americana/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Guinda",
-    "img": "img/licra-americana/03.jpg",
-    "agotado": true
-   },
-   {
-    "code": "04",
-    "name": "Vino",
-    "img": "img/licra-americana/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Botella",
-    "img": "img/licra-americana/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Blanco",
-    "img": "img/licra-americana/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Perla",
-    "img": "img/licra-americana/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Azulino",
-    "img": "img/licra-americana/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Perico",
-    "img": "img/licra-americana/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Amarillo",
-    "img": "img/licra-americana/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Petróleo",
-    "img": "img/licra-americana/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Esmeralda",
-    "img": "img/licra-americana/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Acero",
-    "img": "img/licra-americana/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Barney",
-    "img": "img/licra-americana/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Dusty Rose",
-    "img": "img/licra-americana/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Rosa oscuro",
-    "img": "img/licra-americana/16.jpg",
-    "agotado": false
-   },
-   {
-    "code": "17",
-    "name": "Rosa claro",
-    "img": "img/licra-americana/17.jpg",
-    "agotado": false
-   },
-   {
-    "code": "18",
-    "name": "Palo rosa",
-    "img": "img/licra-americana/18.jpg",
-    "agotado": false
-   },
-   {
-    "code": "19",
-    "name": "Olivo",
-    "img": "img/licra-americana/19.jpg",
-    "agotado": false
-   },
-   {
-    "code": "20",
-    "name": "Muss",
-    "img": "img/licra-americana/20.jpg",
-    "agotado": false
-   },
-   {
-    "code": "21",
-    "name": "Plata",
-    "img": "img/licra-americana/21.jpg",
-    "agotado": false
-   },
-   {
-    "code": "22",
-    "name": "Celeste",
-    "img": "img/licra-americana/22.jpg",
-    "agotado": false
-   },
-   {
-    "code": "23",
-    "name": "Aqua",
-    "img": "img/licra-americana/23.jpg",
-    "agotado": false
-   },
-   {
-    "code": "24",
-    "name": "Beige",
-    "img": "img/licra-americana/24.jpg",
-    "agotado": false
-   },
-   {
-    "code": "25",
-    "name": "Dorado",
-    "img": "img/licra-americana/25.jpg",
-    "agotado": false
-   },
-   {
-    "code": "26",
-    "name": "Rojo",
-    "img": "img/licra-americana/26.jpg",
-    "agotado": false
-   },
-   {
-    "code": "27",
-    "name": "Cobalto",
-    "img": "img/licra-americana/27.jpg",
-    "agotado": false
-   },
-   {
-    "code": "25",
-    "name": "Marrón",
-    "img": "img/licra-americana/25b.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "50 a 60 m"
- },
- {
-  "slug": "suprim",
-  "cat": "sastreria",
-  "name": "Suprim",
-  "sub": "SASTRERÍA · COLOR ENTERO",
-  "hero": "img/suprim/portada.jpg",
-  "pm": 14,
-  "pr": 13,
-  "comp": "88% poliéster / 12% spandex",
-  "ancho": "1.50 m",
-  "peso": "270 g/m",
-  "elast": "Justa, cómoda",
-  "ben": [
-   "No transparenta",
-   "Textura firme, con estructura",
-   "Acabado mate, sin brillo",
-   "Lavado a mano o máquina"
-  ],
-  "usos": "pantalones, sacos, blazers, vestidos formales y crops",
-  "temp": "Todas las temporadas",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/suprim/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Azul noche",
-    "img": "img/suprim/02.jpg",
-    "agotado": true
-   },
-   {
-    "code": "03",
-    "name": "Vino",
-    "img": "img/suprim/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Marrón",
-    "img": "img/suprim/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Verde botella",
-    "img": "img/suprim/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Rojo",
-    "img": "img/suprim/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Azulino",
-    "img": "img/suprim/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Naranja",
-    "img": "img/suprim/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Turquesa",
-    "img": "img/suprim/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Magenta",
-    "img": "img/suprim/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Fucsia",
-    "img": "img/suprim/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Fucsia neón",
-    "img": "img/suprim/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Cemento",
-    "img": "img/suprim/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Palo rosa",
-    "img": "img/suprim/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Topo",
-    "img": "img/suprim/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Galleta",
-    "img": "img/suprim/16.jpg",
-    "agotado": false
-   },
-   {
-    "code": "17",
-    "name": "Beige",
-    "img": "img/suprim/17.jpg",
-    "agotado": false
-   },
-   {
-    "code": "18",
-    "name": "Hueso",
-    "img": "img/suprim/18.jpg",
-    "agotado": false
-   },
-   {
-    "code": "19",
-    "name": "Olivo",
-    "img": "img/suprim/19.jpg",
-    "agotado": false
-   },
-   {
-    "code": "20",
-    "name": "Lila",
-    "img": "img/suprim/20.jpg",
-    "agotado": false
-   },
-   {
-    "code": "21",
-    "name": "Rosado",
-    "img": "img/suprim/21.jpg",
-    "agotado": false
-   },
-   {
-    "code": "22",
-    "name": "Celeste",
-    "img": "img/suprim/22.jpg",
-    "agotado": false
-   },
-   {
-    "code": "23",
-    "name": "Amarillo",
-    "img": "img/suprim/23.jpg",
-    "agotado": false
-   },
-   {
-    "code": "24",
-    "name": "Plata",
-    "img": "img/suprim/24.jpg",
-    "agotado": false
-   },
-   {
-    "code": "25",
-    "name": "Perla",
-    "img": "img/suprim/25.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "lino-rayon",
-  "cat": "fluidas",
-  "name": "Lino Rayón",
-  "sub": "LINOS · COLOR ENTERO",
-  "hero": "img/lino-rayon/portada.jpg",
-  "pm": 13,
-  "pr": 12,
-  "comp": "Rayón, lino, algodón y spandex",
-  "ancho": "1.50 m",
-  "peso": "240 g/m",
-  "elast": "Ligera",
-  "ben": [
-   "Fresco y transpirable",
-   "Caída suave y elegante",
-   "Cómodo y agradable al tacto",
-   "Fácil de confeccionar y versátil"
-  ],
-  "usos": "vestidos, blusas, pantalones, conjuntos, faldas y prendas de verano",
-  "temp": "Primavera · verano",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/lino-rayon/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Malva",
-    "img": "img/lino-rayon/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Camello",
-    "img": "img/lino-rayon/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Beige",
-    "img": "img/lino-rayon/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Beige claro",
-    "img": "img/lino-rayon/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Hueso",
-    "img": "img/lino-rayon/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Celeste",
-    "img": "img/lino-rayon/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Palo rosa",
-    "img": "img/lino-rayon/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Olivo",
-    "img": "img/lino-rayon/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Acero",
-    "img": "img/lino-rayon/10.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "rayon-kendall",
-  "cat": "sastreria",
-  "name": "Rayón Kendall",
-  "sub": "SASTRERÍA · COLOR ENTERO",
-  "hero": "img/rayon-kendall/portada.jpg",
-  "pm": 16,
-  "pr": 15,
-  "comp": "69% poliéster / 28% rayón / 3% spandex",
-  "ancho": "1.50 m",
-  "peso": "450 g/m",
-  "elast": "Poca",
-  "ben": [
-   "No transparenta",
-   "Suave al tacto y fresca",
-   "Caída suave, sin brillo",
-   "Lavado a máquina o mano"
-  ],
-  "usos": "pantalones, shorts, faldas, blazers y chalecos",
-  "temp": "Todo el año",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/rayon-kendall/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Azul noche",
-    "img": "img/rayon-kendall/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Lacre",
-    "img": "img/rayon-kendall/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Camello",
-    "img": "img/rayon-kendall/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Galleta",
-    "img": "img/rayon-kendall/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Beige",
-    "img": "img/rayon-kendall/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Botella",
-    "img": "img/rayon-kendall/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Rojo",
-    "img": "img/rayon-kendall/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Magenta",
-    "img": "img/rayon-kendall/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Acero",
-    "img": "img/rayon-kendall/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Plomo",
-    "img": "img/rayon-kendall/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Celeste",
-    "img": "img/rayon-kendall/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Hueso",
-    "img": "img/rayon-kendall/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Perla",
-    "img": "img/rayon-kendall/14.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "savahana",
-  "cat": "sastreria",
-  "name": "Savahana",
-  "sub": "SASTRERÍA · COLOR ENTERO",
-  "hero": "img/savahana/portada.jpg",
-  "pm": 8,
-  "pr": 7,
-  "comp": "95% poliéster / 5% spandex",
-  "ancho": "1.60 m",
-  "peso": "150 g/m",
-  "elast": "Poca",
-  "ben": [
-   "No transparenta",
-   "Textura rugosa, suave al tacto",
-   "Caída fluida, sin brillo",
-   "Lavado a mano o máquina"
-  ],
-  "usos": "palazzos, blusas, vestidos y enterizos",
-  "temp": "Verano",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/savahana/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Vino",
-    "img": "img/savahana/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Botella",
-    "img": "img/savahana/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Botella claro",
-    "img": "img/savahana/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Loro",
-    "img": "img/savahana/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Rojo",
-    "img": "img/savahana/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Azulino",
-    "img": "img/savahana/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Camello",
-    "img": "img/savahana/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Beige",
-    "img": "img/savahana/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Fucsia",
-    "img": "img/savahana/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Barney",
-    "img": "img/savahana/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Palo rosa",
-    "img": "img/savahana/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Lila",
-    "img": "img/savahana/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Cemento",
-    "img": "img/savahana/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Amarillo",
-    "img": "img/savahana/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Turquesa",
-    "img": "img/savahana/16.jpg",
-    "agotado": false
-   },
-   {
-    "code": "17",
-    "name": "Perla",
-    "img": "img/savahana/17.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "savahana-lunares",
-  "cat": "sastreria",
-  "name": "Savahana con lunares",
-  "sub": "SASTRERÍA · LUNARES",
-  "hero": "img/savahana-lunares/portada.jpg",
-  "pm": 10,
-  "pr": 9,
-  "comp": "95% poliéster / 5% spandex",
-  "ancho": "1.60 m",
-  "peso": "150 g/m",
-  "elast": "Poca",
-  "ben": [
-   "No transparenta",
-   "Textura rugosa, suave al tacto",
-   "Caída fluida, sin brillo",
-   "Lavado a mano o máquina"
-  ],
-  "usos": "palazzos, blusas, vestidos y enterizos",
-  "temp": "Verano",
-  "colors": [
-   {
-    "code": "",
-    "name": "Rojo",
-    "img": "img/savahana-lunares/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Perico",
-    "img": "img/savahana-lunares/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Morado",
-    "img": "img/savahana-lunares/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Botella",
-    "img": "img/savahana-lunares/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Vino",
-    "img": "img/savahana-lunares/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Azulino",
-    "img": "img/savahana-lunares/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Topo",
-    "img": "img/savahana-lunares/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Beige",
-    "img": "img/savahana-lunares/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Lila",
-    "img": "img/savahana-lunares/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Palo rosa",
-    "img": "img/savahana-lunares/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Blanco",
-    "img": "img/savahana-lunares/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Amarillo",
-    "img": "img/savahana-lunares/12.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "seda-bucare",
-  "cat": "fluidas",
-  "name": "Seda Bucaré",
-  "sub": "TAMBIÉN: SATIN LIGHT",
-  "hero": "img/seda-bucare/portada.jpg",
-  "pm": 8,
-  "pr": 7,
-  "comp": "96% poliéster / 4% spandex",
-  "ancho": "1.50 m",
-  "peso": "90 g/m",
-  "elast": "Poca",
-  "ben": [
-   "No transparenta",
-   "Ligera y suave",
-   "Caída fluida, brillo ligero",
-   "Lavado a mano"
-  ],
-  "usos": "blusas, vestidos y pijamas",
-  "temp": "Todo el año",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/seda-bucare/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Azul noche",
-    "img": "img/seda-bucare/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Azulino",
-    "img": "img/seda-bucare/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Botella",
-    "img": "img/seda-bucare/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Cobalto",
-    "img": "img/seda-bucare/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Marrón",
-    "img": "img/seda-bucare/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Naranja",
-    "img": "img/seda-bucare/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Mandarina",
-    "img": "img/seda-bucare/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Rojo",
-    "img": "img/seda-bucare/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Vino",
-    "img": "img/seda-bucare/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Perla",
-    "img": "img/seda-bucare/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Lila",
-    "img": "img/seda-bucare/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Palo rosa",
-    "img": "img/seda-bucare/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Beige",
-    "img": "img/seda-bucare/14.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "encaje-vipure",
-  "cat": "encajes",
-  "name": "Encaje Vipure",
-  "sub": "ENCAJES · ALGODONADO",
-  "hero": "img/encaje-vipure/portada.jpg",
-  "pm": 14,
-  "pr": 13,
-  "comp": "Poliéster",
-  "ancho": "1.40 m",
-  "peso": "Consultar",
-  "elast": "Baja o nula",
-  "ben": [
-   "Diseño floral elegante y definido",
-   "Transparencia decorativa",
-   "Buena estructura para prendas con forma",
-   "Ideal sobre forros o bases lisas"
-  ],
-  "usos": "blusas, vestidos, tops, mangas, faldas, conjuntos y detalles decorativos",
-  "temp": "Primavera · verano · eventos",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/encaje-vipure/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Marrón",
-    "img": "img/encaje-vipure/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Marfil",
-    "img": "img/encaje-vipure/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Perla",
-    "img": "img/encaje-vipure/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Blanco",
-    "img": "img/encaje-vipure/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Palo rosa",
-    "img": "img/encaje-vipure/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Melón",
-    "img": "img/encaje-vipure/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Celeste",
-    "img": "img/encaje-vipure/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Maíz",
-    "img": "img/encaje-vipure/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Olivo",
-    "img": "img/encaje-vipure/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Rojo",
-    "img": "img/encaje-vipure/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Vino",
-    "img": "img/encaje-vipure/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Melón claro",
-    "img": "img/encaje-vipure/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Magenta",
-    "img": "img/encaje-vipure/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Cemento",
-    "img": "img/encaje-vipure/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Botella",
-    "img": "img/encaje-vipure/16.jpg",
-    "agotado": true
-   },
-   {
-    "code": "17",
-    "name": "Plomo",
-    "img": "img/encaje-vipure/17.jpg",
-    "agotado": false
-   },
-   {
-    "code": "18",
-    "name": "Lila",
-    "img": "img/encaje-vipure/18.jpg",
-    "agotado": false
-   },
-   {
-    "code": "19",
-    "name": "Azulino",
-    "img": "img/encaje-vipure/19.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "60 a 65 m"
- },
- {
-  "slug": "crepe-cey",
-  "cat": "fluidas",
-  "name": "Crepé Cey",
-  "sub": "CREPES · COLOR ENTERO",
-  "hero": "img/crepe-cey/portada.jpg",
-  "pm": 8,
-  "pr": 7,
-  "comp": "Poliéster y spandex",
-  "ancho": "1.50 m",
-  "peso": "Consultar",
-  "elast": "Ligera",
-  "ben": [
-   "Caída fluida y elegante",
-   "Textura crepé suave, acabado mate",
-   "Fresca y cómoda al vestir",
-   "Opaca y fácil de combinar"
-  ],
-  "usos": "vestidos, blusas, camisas, faldas, pantalones y conjuntos",
-  "temp": "Primavera · verano · otoño",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/crepe-cey/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Azul noche",
-    "img": "img/crepe-cey/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Azulino",
-    "img": "img/crepe-cey/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Naranja",
-    "img": "img/crepe-cey/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Amarillo",
-    "img": "img/crepe-cey/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Botella bajo",
-    "img": "img/crepe-cey/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Botella fuerte",
-    "img": "img/crepe-cey/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Loro",
-    "img": "img/crepe-cey/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Fucsia",
-    "img": "img/crepe-cey/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Magenta",
-    "img": "img/crepe-cey/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Barney",
-    "img": "img/crepe-cey/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Beige",
-    "img": "img/crepe-cey/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Camello",
-    "img": "img/crepe-cey/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Palo rosa",
-    "img": "img/crepe-cey/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Olivo",
-    "img": "img/crepe-cey/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Perla",
-    "img": "img/crepe-cey/16.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "nansu-rayas",
-  "cat": "fluidas",
-  "name": "Nansú Batista a rayas",
-  "sub": "NANSÚ · DISEÑO A RAYAS",
-  "hero": "img/nansu-rayas/portada.jpg",
-  "pm": 12,
-  "pr": 11,
-  "comp": "98% poliéster / 2% spandex",
-  "ancho": "1.46 m",
-  "peso": "115 g/m²",
-  "elast": "Ligera",
-  "ben": [
-   "Ligero y fresco al vestir",
-   "Suave y cómodo al tacto",
-   "Diseño clásico de rayas",
-   "Buena opción para prendas sueltas y de verano"
-  ],
-  "usos": "camisas, blusas, vestidos, faldas, shorts, pantalones ligeros y conjuntos",
-  "temp": "Primavera · verano",
-  "heroProv": false,
-  "colors": [
-   {
-    "code": "",
-    "name": "Negro",
-    "img": "img/nansu-rayas/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Celeste",
-    "img": "img/nansu-rayas/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Azul",
-    "img": "img/nansu-rayas/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Marrón",
-    "img": "img/nansu-rayas/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Olivo",
-    "img": "img/nansu-rayas/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "",
-    "name": "Palo rosa",
-    "img": "img/nansu-rayas/06.jpg",
-    "agotado": false
-   }
-  ]
- },
- {
-  "slug": "licra-tachas",
-  "cat": "licras",
-  "name": "Licra tachas",
-  "sub": "LICRAS · CON TACHAS",
-  "hero": "img/licra-tachas/portada.jpg",
-  "pm": 14,
-  "pr": 13,
-  "comp": "96% poliéster / 4% spandex",
-  "ancho": "1.60 m",
-  "peso": "250 g/m",
-  "elast": "En ambos sentidos",
-  "ben": [
-   "Elástica y cómoda al vestir",
-   "Tachas decorativas con brillo",
-   "Buena caída y adaptación al cuerpo",
-   "Para prendas llamativas y de noche"
-  ],
-  "usos": "tops, vestidos, faldas, conjuntos, bodys y prendas de fiesta",
-  "temp": "Todo el año · eventos",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/licra-tachas/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Cobalto",
-    "img": "img/licra-tachas/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Vino",
-    "img": "img/licra-tachas/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Rojo",
-    "img": "img/licra-tachas/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Olivo",
-    "img": "img/licra-tachas/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Rosado",
-    "img": "img/licra-tachas/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Beige",
-    "img": "img/licra-tachas/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Perla",
-    "img": "img/licra-tachas/08.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "broderi-flores",
-  "cat": "encajes",
-  "name": "Broderi flores",
-  "sub": "BORDADOS · DISEÑO FLORES",
-  "hero": "img/broderi-flores/portada.jpg",
-  "pm": 15,
-  "pr": 14,
-  "comp": "Algodón y poliéster",
-  "ancho": "1.50 m",
-  "peso": "Consultar",
-  "elast": "Sin elasticidad",
-  "ben": [
-   "Bordado floral delicado",
-   "Fresco y ligero",
-   "Textura con buen relieve",
-   "Ideal para prendas de verano"
-  ],
-  "usos": "blusas, vestidos, faldas, shorts, mangas y conjuntos",
-  "temp": "Primavera · verano",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/broderi-flores/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Acero",
-    "img": "img/broderi-flores/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Beige",
-    "img": "img/broderi-flores/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Topo",
-    "img": "img/broderi-flores/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Militar",
-    "img": "img/broderi-flores/05.jpg",
-    "agotado": true
-   },
-   {
-    "code": "06",
-    "name": "Maíz",
-    "img": "img/broderi-flores/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Agua",
-    "img": "img/broderi-flores/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Fucsia",
-    "img": "img/broderi-flores/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Palo rosa",
-    "img": "img/broderi-flores/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Manteca",
-    "img": "img/broderi-flores/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Perla",
-    "img": "img/broderi-flores/11.jpg",
-    "agotado": true
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "broderi-cenefa",
-  "cat": "encajes",
-  "name": "Broderi con cenefa",
-  "sub": "BORDADOS · CON CENEFA",
-  "hero": "img/broderi-cenefa/portada.jpg",
-  "pm": 16,
-  "pr": 15,
-  "comp": "96% algodón / 4% poliéster",
-  "ancho": "1.33 m útil",
-  "peso": "132 g/m²",
-  "elast": "Sin elasticidad",
-  "ben": [
-   "Bordado floral elegante",
-   "Fresco y ligero al vestir",
-   "Cenefa ideal para terminaciones",
-   "Textura y detalle sin recargar"
-  ],
-  "usos": "blusas, vestidos, shorts, faldas, mangas y conjuntos",
-  "temp": "Primavera · verano",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/broderi-cenefa/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Marrón",
-    "img": "img/broderi-cenefa/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Amarillo maíz",
-    "img": "img/broderi-cenefa/03.jpg",
-    "agotado": true
-   },
-   {
-    "code": "04",
-    "name": "Perla",
-    "img": "img/broderi-cenefa/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Blanco",
-    "img": "img/broderi-cenefa/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Palo rosa",
-    "img": "img/broderi-cenefa/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Vino",
-    "img": "img/broderi-cenefa/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Rojo",
-    "img": "img/broderi-cenefa/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Olivo",
-    "img": "img/broderi-cenefa/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Celeste",
-    "img": "img/broderi-cenefa/10.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "30 m"
- },
- {
-  "slug": "licra-foil",
-  "cat": "licras",
-  "name": "Licra Foil",
-  "sub": "LICRAS · CON BRILLO",
-  "hero": "img/licra-foil/portada.jpg",
-  "pm": 12,
-  "pr": 11,
-  "comp": "Poliéster y spandex",
-  "ancho": "1.60 m",
-  "peso": "Consultar",
-  "elast": "En ambos sentidos",
-  "ben": [
-   "Brillo con efecto metálico",
-   "Elástica y adaptable al cuerpo",
-   "Textura llamativa, de impacto",
-   "Ideal para fiesta y escenario"
-  ],
-  "usos": "tops, bodys, vestidos, faldas, conjuntos, ropa de baile y fiesta",
-  "temp": "Todo el año · eventos",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/licra-foil/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Guinda",
-    "img": "img/licra-foil/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Topo",
-    "img": "img/licra-foil/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Vino",
-    "img": "img/licra-foil/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Beige",
-    "img": "img/licra-foil/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Palo rosa",
-    "img": "img/licra-foil/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Perla",
-    "img": "img/licra-foil/07.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false
- },
- {
-  "slug": "satin-sara",
-  "cat": "fiesta",
-  "name": "Satín Sara nacarado",
-  "sub": "SATINES · ACABADO NACARADO",
-  "hero": "img/satin-sara/portada.jpg",
-  "pm": 14,
-  "pr": 13,
-  "comp": "95% poliéster / 5% spandex",
-  "ancho": "1.60 m",
-  "peso": "250 g/m",
-  "elast": "Poca",
-  "ben": [
-   "Acabado brillante y nacarado",
-   "Firme, pero suave al tacto",
-   "No transparenta",
-   "Resistente a confección y uso"
-  ],
-  "usos": "vestidos, corsets, tops estructurados y prendas de ocasión",
-  "temp": "Verano · otoño · invierno",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Guinda",
-    "img": "img/satin-sara/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Rojo",
-    "img": "img/satin-sara/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Beige oscuro",
-    "img": "img/satin-sara/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Rosa nude",
-    "img": "img/satin-sara/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Palo rosa",
-    "img": "img/satin-sara/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Muss",
-    "img": "img/satin-sara/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Azulino",
-    "img": "img/satin-sara/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Acero",
-    "img": "img/satin-sara/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Dorado",
-    "img": "img/satin-sara/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Lila",
-    "img": "img/satin-sara/13.jpg",
-    "agotado": false
-   },
-   {
-    "code": "14",
-    "name": "Negro",
-    "img": "img/satin-sara/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Blanco",
-    "img": "img/satin-sara/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Azul noche",
-    "img": "img/satin-sara/16.jpg",
-    "agotado": false
-   },
-   {
-    "code": "17",
-    "name": "Marrón",
-    "img": "img/satin-sara/17.jpg",
-    "agotado": false
-   },
-   {
-    "code": "18",
-    "name": "Botella",
-    "img": "img/satin-sara/18.jpg",
-    "agotado": false
-   },
-   {
-    "code": "19",
-    "name": "Petróleo",
-    "img": "img/satin-sara/19.jpg",
-    "agotado": false
-   },
-   {
-    "code": "20",
-    "name": "Olivo",
-    "img": "img/satin-sara/20.jpg",
-    "agotado": false
-   },
-   {
-    "code": "21",
-    "name": "Beige claro",
-    "img": "img/satin-sara/21.jpg",
-    "agotado": false
-   },
-   {
-    "code": "22",
-    "name": "Celeste",
-    "img": "img/satin-sara/22.jpg",
-    "agotado": true
-   },
-   {
-    "code": "23",
-    "name": "Barney",
-    "img": "img/satin-sara/23.jpg",
-    "agotado": false
-   },
-   {
-    "code": "24",
-    "name": "Perla",
-    "img": "img/satin-sara/24.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "50 a 70 m"
- },
- {
-  "slug": "bambula-caigua",
-  "cat": "encajes",
-  "name": "Bambula caigua",
-  "sub": "BORDADOS · DISEÑO CAIGUA",
-  "hero": "img/bambula-caigua/portada.jpg",
-  "pm": 16,
-  "pr": 15,
-  "comp": "100% poliéster",
-  "ancho": "1.42 m",
-  "peso": "150 g/m²",
-  "elast": "Nula o muy baja",
-  "ben": [
-   "Ligera y fresca al vestir",
-   "Bordado de diseño llamativo",
-   "Buena caída en prendas sueltas",
-   "Fácil de combinar con forro"
-  ],
-  "usos": "blusas, vestidos, faldas, palazzos, kimonos, mangas y conjuntos",
-  "temp": "Primavera · verano",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/bambula-caigua/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Marrón",
-    "img": "img/bambula-caigua/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Mantequilla",
-    "img": "img/bambula-caigua/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Perla",
-    "img": "img/bambula-caigua/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Celeste",
-    "img": "img/bambula-caigua/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Rosado",
-    "img": "img/bambula-caigua/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Vino",
-    "img": "img/bambula-caigua/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Olivo",
-    "img": "img/bambula-caigua/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Amarillo maíz",
-    "img": "img/bambula-caigua/09.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "50 a 60 m"
- },
- {
-  "slug": "bambula-cuadrados",
-  "cat": "encajes",
-  "name": "Bambula cuadrados",
-  "sub": "BORDADOS · DISEÑO CUADRADOS",
-  "hero": "img/bambula-cuadrados/portada.jpg",
-  "pm": 16,
-  "pr": 15,
-  "comp": "100% poliéster",
-  "ancho": "1.42 m",
-  "peso": "150 g/m²",
-  "elast": "Nula o muy baja",
-  "ben": [
-   "Ligera y fresca al vestir",
-   "Bordado de diseño llamativo",
-   "Buena caída en prendas sueltas",
-   "Fácil de combinar con forro"
-  ],
-  "usos": "blusas, vestidos, faldas, palazzos, kimonos, mangas y conjuntos",
-  "temp": "Primavera · verano",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro",
-    "img": "img/bambula-cuadrados/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Marrón",
-    "img": "img/bambula-cuadrados/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Mantequilla",
-    "img": "img/bambula-cuadrados/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Blanco",
-    "img": "img/bambula-cuadrados/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Olivo",
-    "img": "img/bambula-cuadrados/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Rosado",
-    "img": "img/bambula-cuadrados/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Vino",
-    "img": "img/bambula-cuadrados/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Celeste",
-    "img": "img/bambula-cuadrados/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Amarillo maíz",
-    "img": "img/bambula-cuadrados/09.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "50 a 60 m"
- },
- {
-  "slug": "licra-diamantes",
-  "cat": "licras",
-  "name": "Licra con diamantes",
-  "sub": "LICRAS · CON DIAMANTES",
-  "hero": "img/licra-diamantes/portada.jpg",
-  "pm": 16,
-  "pr": 15,
-  "comp": "Poliéster y spandex",
-  "ancho": "1.60 m",
-  "peso": "Consultar",
-  "elast": "En ambos sentidos",
-  "ben": [
-   "Elástica y adaptable al cuerpo",
-   "Diamantes con brillo decorativo",
-   "Suave y cómoda, para ceñidas",
-   "Acabado elegante y llamativo"
-  ],
-  "usos": "tops, bodys, vestidos, faldas, conjuntos, ropa de baile y fiesta",
-  "temp": "Todo el año · eventos",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Negro · diam. cristal",
-    "img": "img/licra-diamantes/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Negro · diam. negros",
-    "img": "img/licra-diamantes/02.jpg",
-    "agotado": false
-   },
-   {
-    "code": "03",
-    "name": "Camello",
-    "img": "img/licra-diamantes/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Beige",
-    "img": "img/licra-diamantes/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Hueso",
-    "img": "img/licra-diamantes/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Perla",
-    "img": "img/licra-diamantes/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Olivo",
-    "img": "img/licra-diamantes/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Rosado bebé",
-    "img": "img/licra-diamantes/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Vino · diam. cristal",
-    "img": "img/licra-diamantes/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Vino · diam. vino",
-    "img": "img/licra-diamantes/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Rojo · diam. cristal",
-    "img": "img/licra-diamantes/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Rojo · diam. rojos",
-    "img": "img/licra-diamantes/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Marrón",
-    "img": "img/licra-diamantes/13.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "60 a 80 m"
- },
- {
-  "slug": "glitter",
-  "cat": "fiesta",
-  "name": "Glitter",
-  "sub": "TUL BORDADO · GLITTER Y LENTEJUELAS",
-  "hero": "img/glitter/portada.jpg",
-  "pm": 19,
-  "pr": 18,
-  "comp": "Poliéster",
-  "ancho": "1.50 m",
-  "peso": "Consultar",
-  "elast": "Baja o nula",
-  "ben": [
-   "Bordado con glitter y lentejuelas",
-   "Brillo intenso, acabado elegante",
-   "Diseño de alto impacto visual",
-   "Para fiesta y ocasiones especiales"
-  ],
-  "usos": "vestidos de fiesta y de noche, corsets, tops, faldas y mangas",
-  "temp": "Todo el año · eventos",
-  "colors": [
-   {
-    "code": "01",
-    "name": "Lacre",
-    "img": "img/glitter/01.jpg",
-    "agotado": false
-   },
-   {
-    "code": "02",
-    "name": "Marrón",
-    "img": "img/glitter/02.jpg",
-    "agotado": true
-   },
-   {
-    "code": "03",
-    "name": "Beige",
-    "img": "img/glitter/03.jpg",
-    "agotado": false
-   },
-   {
-    "code": "04",
-    "name": "Rosa nude",
-    "img": "img/glitter/04.jpg",
-    "agotado": false
-   },
-   {
-    "code": "05",
-    "name": "Celeste",
-    "img": "img/glitter/05.jpg",
-    "agotado": false
-   },
-   {
-    "code": "06",
-    "name": "Palo rosa",
-    "img": "img/glitter/06.jpg",
-    "agotado": false
-   },
-   {
-    "code": "07",
-    "name": "Lila",
-    "img": "img/glitter/07.jpg",
-    "agotado": false
-   },
-   {
-    "code": "08",
-    "name": "Dorado",
-    "img": "img/glitter/08.jpg",
-    "agotado": false
-   },
-   {
-    "code": "09",
-    "name": "Botella",
-    "img": "img/glitter/09.jpg",
-    "agotado": false
-   },
-   {
-    "code": "10",
-    "name": "Azul noche",
-    "img": "img/glitter/10.jpg",
-    "agotado": false
-   },
-   {
-    "code": "11",
-    "name": "Olivo",
-    "img": "img/glitter/11.jpg",
-    "agotado": false
-   },
-   {
-    "code": "12",
-    "name": "Plata",
-    "img": "img/glitter/12.jpg",
-    "agotado": false
-   },
-   {
-    "code": "13",
-    "name": "Rojo",
-    "img": "img/glitter/13.jpg",
-    "agotado": true
-   },
-   {
-    "code": "14",
-    "name": "Azulino",
-    "img": "img/glitter/14.jpg",
-    "agotado": false
-   },
-   {
-    "code": "15",
-    "name": "Perico",
-    "img": "img/glitter/15.jpg",
-    "agotado": false
-   },
-   {
-    "code": "16",
-    "name": "Guinda",
-    "img": "img/glitter/16.jpg",
-    "agotado": false
-   },
-   {
-    "code": "17",
-    "name": "Negro",
-    "img": "img/glitter/17.jpg",
-    "agotado": false
-   }
-  ],
-  "heroProv": false,
-  "rollo": "50 m"
- }
+  {
+    "slug": "licra-americana",
+    "cat": "licras",
+    "name": "Licra americana",
+    "sub": "LICRAS · COLOR ENTERO",
+    "hero": "img/licra-americana/portada.jpg",
+    "pm": 16,
+    "pr": 15,
+    "comp": "84% nylon / 16% spandex",
+    "ancho": "1.60 m",
+    "peso": "250 g/m",
+    "elast": "En ambos sentidos",
+    "ben": [
+      "No transparenta",
+      "Brillo ligero, buena caída",
+      "No se jala ni hace pelotitas",
+      "Resiste confección y lavados"
+    ],
+    "usos": "vestidos, tops, ropa de baño y deportiva",
+    "temp": "Verano · otoño",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/licra-americana/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Azul noche",
+        "img": "img/licra-americana/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Guinda",
+        "img": "img/licra-americana/03.jpg",
+        "agotado": true
+      },
+      {
+        "code": "04",
+        "name": "Vino",
+        "img": "img/licra-americana/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Botella",
+        "img": "img/licra-americana/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Blanco",
+        "img": "img/licra-americana/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Perla",
+        "img": "img/licra-americana/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Azulino",
+        "img": "img/licra-americana/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Perico",
+        "img": "img/licra-americana/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Amarillo",
+        "img": "img/licra-americana/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Petróleo",
+        "img": "img/licra-americana/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Esmeralda",
+        "img": "img/licra-americana/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Acero",
+        "img": "img/licra-americana/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Barney",
+        "img": "img/licra-americana/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Dusty Rose",
+        "img": "img/licra-americana/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Rosa oscuro",
+        "img": "img/licra-americana/16.jpg",
+        "agotado": false
+      },
+      {
+        "code": "17",
+        "name": "Rosa claro",
+        "img": "img/licra-americana/17.jpg",
+        "agotado": false
+      },
+      {
+        "code": "18",
+        "name": "Palo rosa",
+        "img": "img/licra-americana/18.jpg",
+        "agotado": false
+      },
+      {
+        "code": "19",
+        "name": "Olivo",
+        "img": "img/licra-americana/19.jpg",
+        "agotado": false
+      },
+      {
+        "code": "20",
+        "name": "Muss",
+        "img": "img/licra-americana/20.jpg",
+        "agotado": false
+      },
+      {
+        "code": "21",
+        "name": "Plata",
+        "img": "img/licra-americana/21.jpg",
+        "agotado": false
+      },
+      {
+        "code": "22",
+        "name": "Celeste",
+        "img": "img/licra-americana/22.jpg",
+        "agotado": false
+      },
+      {
+        "code": "23",
+        "name": "Aqua",
+        "img": "img/licra-americana/23.jpg",
+        "agotado": false
+      },
+      {
+        "code": "24",
+        "name": "Beige",
+        "img": "img/licra-americana/24.jpg",
+        "agotado": false
+      },
+      {
+        "code": "25",
+        "name": "Dorado",
+        "img": "img/licra-americana/25.jpg",
+        "agotado": false
+      },
+      {
+        "code": "26",
+        "name": "Rojo",
+        "img": "img/licra-americana/26.jpg",
+        "agotado": false
+      },
+      {
+        "code": "27",
+        "name": "Cobalto",
+        "img": "img/licra-americana/27.jpg",
+        "agotado": false
+      },
+      {
+        "code": "25",
+        "name": "Marrón",
+        "img": "img/licra-americana/25b.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "50 a 60 m"
+  },
+  {
+    "slug": "suprim",
+    "cat": "sastreria",
+    "name": "Suprim",
+    "sub": "SASTRERÍA · COLOR ENTERO",
+    "hero": "img/suprim/portada.jpg",
+    "pm": 14,
+    "pr": 13,
+    "comp": "88% poliéster / 12% spandex",
+    "ancho": "1.50 m",
+    "peso": "270 g/m",
+    "elast": "Justa, cómoda",
+    "ben": [
+      "No transparenta",
+      "Textura firme, con estructura",
+      "Acabado mate, sin brillo",
+      "Lavado a mano o máquina"
+    ],
+    "usos": "pantalones, sacos, blazers, vestidos formales y crops",
+    "temp": "Todas las temporadas",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/suprim/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Azul noche",
+        "img": "img/suprim/02.jpg",
+        "agotado": true
+      },
+      {
+        "code": "03",
+        "name": "Vino",
+        "img": "img/suprim/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Marrón",
+        "img": "img/suprim/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Verde botella",
+        "img": "img/suprim/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Rojo",
+        "img": "img/suprim/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Azulino",
+        "img": "img/suprim/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Naranja",
+        "img": "img/suprim/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Turquesa",
+        "img": "img/suprim/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Magenta",
+        "img": "img/suprim/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Fucsia",
+        "img": "img/suprim/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Fucsia neón",
+        "img": "img/suprim/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Cemento",
+        "img": "img/suprim/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Palo rosa",
+        "img": "img/suprim/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Topo",
+        "img": "img/suprim/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Galleta",
+        "img": "img/suprim/16.jpg",
+        "agotado": false
+      },
+      {
+        "code": "17",
+        "name": "Beige",
+        "img": "img/suprim/17.jpg",
+        "agotado": false
+      },
+      {
+        "code": "18",
+        "name": "Hueso",
+        "img": "img/suprim/18.jpg",
+        "agotado": false
+      },
+      {
+        "code": "19",
+        "name": "Olivo",
+        "img": "img/suprim/19.jpg",
+        "agotado": false
+      },
+      {
+        "code": "20",
+        "name": "Lila",
+        "img": "img/suprim/20.jpg",
+        "agotado": false
+      },
+      {
+        "code": "21",
+        "name": "Rosado",
+        "img": "img/suprim/21.jpg",
+        "agotado": false
+      },
+      {
+        "code": "22",
+        "name": "Celeste",
+        "img": "img/suprim/22.jpg",
+        "agotado": false
+      },
+      {
+        "code": "23",
+        "name": "Amarillo",
+        "img": "img/suprim/23.jpg",
+        "agotado": false
+      },
+      {
+        "code": "24",
+        "name": "Plata",
+        "img": "img/suprim/24.jpg",
+        "agotado": false
+      },
+      {
+        "code": "25",
+        "name": "Perla",
+        "img": "img/suprim/25.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "lino-rayon",
+    "cat": "fluidas",
+    "name": "Lino Rayón",
+    "sub": "LINOS · COLOR ENTERO",
+    "hero": "img/lino-rayon/portada.jpg",
+    "pm": 13,
+    "pr": 12,
+    "comp": "Rayón, lino, algodón y spandex",
+    "ancho": "1.50 m",
+    "peso": "240 g/m",
+    "elast": "Ligera",
+    "ben": [
+      "Fresco y transpirable",
+      "Caída suave y elegante",
+      "Cómodo y agradable al tacto",
+      "Fácil de confeccionar y versátil"
+    ],
+    "usos": "vestidos, blusas, pantalones, conjuntos, faldas y prendas de verano",
+    "temp": "Primavera · verano",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/lino-rayon/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Malva",
+        "img": "img/lino-rayon/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Camello",
+        "img": "img/lino-rayon/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Beige",
+        "img": "img/lino-rayon/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Beige claro",
+        "img": "img/lino-rayon/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Hueso",
+        "img": "img/lino-rayon/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Celeste",
+        "img": "img/lino-rayon/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Palo rosa",
+        "img": "img/lino-rayon/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Olivo",
+        "img": "img/lino-rayon/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Acero",
+        "img": "img/lino-rayon/10.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "rayon-kendall",
+    "cat": "sastreria",
+    "name": "Rayón Kendall",
+    "sub": "SASTRERÍA · COLOR ENTERO",
+    "hero": "img/rayon-kendall/portada.jpg",
+    "pm": 16,
+    "pr": 15,
+    "comp": "69% poliéster / 28% rayón / 3% spandex",
+    "ancho": "1.50 m",
+    "peso": "450 g/m",
+    "elast": "Poca",
+    "ben": [
+      "No transparenta",
+      "Suave al tacto y fresca",
+      "Caída suave, sin brillo",
+      "Lavado a máquina o mano"
+    ],
+    "usos": "pantalones, shorts, faldas, blazers y chalecos",
+    "temp": "Todo el año",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/rayon-kendall/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Azul noche",
+        "img": "img/rayon-kendall/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Lacre",
+        "img": "img/rayon-kendall/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Camello",
+        "img": "img/rayon-kendall/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Galleta",
+        "img": "img/rayon-kendall/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Beige",
+        "img": "img/rayon-kendall/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Botella",
+        "img": "img/rayon-kendall/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Rojo",
+        "img": "img/rayon-kendall/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Magenta",
+        "img": "img/rayon-kendall/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Acero",
+        "img": "img/rayon-kendall/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Plomo",
+        "img": "img/rayon-kendall/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Celeste",
+        "img": "img/rayon-kendall/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Hueso",
+        "img": "img/rayon-kendall/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Perla",
+        "img": "img/rayon-kendall/14.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "savahana",
+    "cat": "sastreria",
+    "name": "Savahana",
+    "sub": "SASTRERÍA · COLOR ENTERO",
+    "hero": "img/savahana/portada.jpg",
+    "pm": 8,
+    "pr": 7,
+    "comp": "95% poliéster / 5% spandex",
+    "ancho": "1.60 m",
+    "peso": "150 g/m",
+    "elast": "Poca",
+    "ben": [
+      "No transparenta",
+      "Textura rugosa, suave al tacto",
+      "Caída fluida, sin brillo",
+      "Lavado a mano o máquina"
+    ],
+    "usos": "palazzos, blusas, vestidos y enterizos",
+    "temp": "Verano",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/savahana/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Vino",
+        "img": "img/savahana/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Botella",
+        "img": "img/savahana/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Botella claro",
+        "img": "img/savahana/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Loro",
+        "img": "img/savahana/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Rojo",
+        "img": "img/savahana/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Azulino",
+        "img": "img/savahana/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Camello",
+        "img": "img/savahana/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Beige",
+        "img": "img/savahana/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Fucsia",
+        "img": "img/savahana/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Barney",
+        "img": "img/savahana/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Palo rosa",
+        "img": "img/savahana/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Lila",
+        "img": "img/savahana/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Cemento",
+        "img": "img/savahana/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Amarillo",
+        "img": "img/savahana/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Turquesa",
+        "img": "img/savahana/16.jpg",
+        "agotado": false
+      },
+      {
+        "code": "17",
+        "name": "Perla",
+        "img": "img/savahana/17.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "savahana-lunares",
+    "cat": "sastreria",
+    "name": "Savahana con lunares",
+    "sub": "SASTRERÍA · LUNARES",
+    "hero": "img/savahana-lunares/portada.jpg",
+    "pm": 10,
+    "pr": 9,
+    "comp": "95% poliéster / 5% spandex",
+    "ancho": "1.60 m",
+    "peso": "150 g/m",
+    "elast": "Poca",
+    "ben": [
+      "No transparenta",
+      "Textura rugosa, suave al tacto",
+      "Caída fluida, sin brillo",
+      "Lavado a mano o máquina"
+    ],
+    "usos": "palazzos, blusas, vestidos y enterizos",
+    "temp": "Verano",
+    "colors": [
+      {
+        "code": "",
+        "name": "Rojo",
+        "img": "img/savahana-lunares/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Perico",
+        "img": "img/savahana-lunares/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Morado",
+        "img": "img/savahana-lunares/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Botella",
+        "img": "img/savahana-lunares/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Vino",
+        "img": "img/savahana-lunares/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Azulino",
+        "img": "img/savahana-lunares/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Topo",
+        "img": "img/savahana-lunares/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Beige",
+        "img": "img/savahana-lunares/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Lila",
+        "img": "img/savahana-lunares/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Palo rosa",
+        "img": "img/savahana-lunares/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Blanco",
+        "img": "img/savahana-lunares/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Amarillo",
+        "img": "img/savahana-lunares/12.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "seda-bucare",
+    "cat": "fluidas",
+    "name": "Seda Bucaré",
+    "sub": "TAMBIÉN: SATIN LIGHT",
+    "hero": "img/seda-bucare/portada.jpg",
+    "pm": 8,
+    "pr": 7,
+    "comp": "96% poliéster / 4% spandex",
+    "ancho": "1.50 m",
+    "peso": "90 g/m",
+    "elast": "Poca",
+    "ben": [
+      "No transparenta",
+      "Ligera y suave",
+      "Caída fluida, brillo ligero",
+      "Lavado a mano"
+    ],
+    "usos": "blusas, vestidos y pijamas",
+    "temp": "Todo el año",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/seda-bucare/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Azul noche",
+        "img": "img/seda-bucare/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Azulino",
+        "img": "img/seda-bucare/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Botella",
+        "img": "img/seda-bucare/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Cobalto",
+        "img": "img/seda-bucare/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Marrón",
+        "img": "img/seda-bucare/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Naranja",
+        "img": "img/seda-bucare/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Mandarina",
+        "img": "img/seda-bucare/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Rojo",
+        "img": "img/seda-bucare/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Vino",
+        "img": "img/seda-bucare/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Perla",
+        "img": "img/seda-bucare/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Lila",
+        "img": "img/seda-bucare/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Palo rosa",
+        "img": "img/seda-bucare/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Beige",
+        "img": "img/seda-bucare/14.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "encaje-vipure",
+    "cat": "encajes",
+    "name": "Encaje Vipure",
+    "sub": "ENCAJES · ALGODONADO",
+    "hero": "img/encaje-vipure/portada.jpg",
+    "pm": 14,
+    "pr": 13,
+    "comp": "Poliéster",
+    "ancho": "1.40 m",
+    "peso": "Consultar",
+    "elast": "Baja o nula",
+    "ben": [
+      "Diseño floral elegante y definido",
+      "Transparencia decorativa",
+      "Buena estructura para prendas con forma",
+      "Ideal sobre forros o bases lisas"
+    ],
+    "usos": "blusas, vestidos, tops, mangas, faldas, conjuntos y detalles decorativos",
+    "temp": "Primavera · verano · eventos",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/encaje-vipure/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Marrón",
+        "img": "img/encaje-vipure/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Marfil",
+        "img": "img/encaje-vipure/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Perla",
+        "img": "img/encaje-vipure/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Blanco",
+        "img": "img/encaje-vipure/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Palo rosa",
+        "img": "img/encaje-vipure/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Melón",
+        "img": "img/encaje-vipure/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Celeste",
+        "img": "img/encaje-vipure/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Maíz",
+        "img": "img/encaje-vipure/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Olivo",
+        "img": "img/encaje-vipure/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Rojo",
+        "img": "img/encaje-vipure/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Vino",
+        "img": "img/encaje-vipure/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Melón claro",
+        "img": "img/encaje-vipure/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Magenta",
+        "img": "img/encaje-vipure/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Cemento",
+        "img": "img/encaje-vipure/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Botella",
+        "img": "img/encaje-vipure/16.jpg",
+        "agotado": true
+      },
+      {
+        "code": "17",
+        "name": "Plomo",
+        "img": "img/encaje-vipure/17.jpg",
+        "agotado": false
+      },
+      {
+        "code": "18",
+        "name": "Lila",
+        "img": "img/encaje-vipure/18.jpg",
+        "agotado": false
+      },
+      {
+        "code": "19",
+        "name": "Azulino",
+        "img": "img/encaje-vipure/19.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "60 a 65 m"
+  },
+  {
+    "slug": "crepe-cey",
+    "cat": "fluidas",
+    "name": "Crepé Cey",
+    "sub": "CREPES · COLOR ENTERO",
+    "hero": "img/crepe-cey/portada.jpg",
+    "pm": 8,
+    "pr": 7,
+    "comp": "Poliéster y spandex",
+    "ancho": "1.50 m",
+    "peso": "Consultar",
+    "elast": "Ligera",
+    "ben": [
+      "Caída fluida y elegante",
+      "Textura crepé suave, acabado mate",
+      "Fresca y cómoda al vestir",
+      "Opaca y fácil de combinar"
+    ],
+    "usos": "vestidos, blusas, camisas, faldas, pantalones y conjuntos",
+    "temp": "Primavera · verano · otoño",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/crepe-cey/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Azul noche",
+        "img": "img/crepe-cey/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Azulino",
+        "img": "img/crepe-cey/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Naranja",
+        "img": "img/crepe-cey/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Amarillo",
+        "img": "img/crepe-cey/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Botella bajo",
+        "img": "img/crepe-cey/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Botella fuerte",
+        "img": "img/crepe-cey/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Loro",
+        "img": "img/crepe-cey/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Fucsia",
+        "img": "img/crepe-cey/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Magenta",
+        "img": "img/crepe-cey/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Barney",
+        "img": "img/crepe-cey/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Beige",
+        "img": "img/crepe-cey/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Camello",
+        "img": "img/crepe-cey/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Palo rosa",
+        "img": "img/crepe-cey/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Olivo",
+        "img": "img/crepe-cey/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Perla",
+        "img": "img/crepe-cey/16.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "nansu-rayas",
+    "cat": "fluidas",
+    "name": "Nansú Batista a rayas",
+    "sub": "NANSÚ · DISEÑO A RAYAS",
+    "hero": "img/nansu-rayas/portada.jpg",
+    "pm": 12,
+    "pr": 11,
+    "comp": "98% poliéster / 2% spandex",
+    "ancho": "1.46 m",
+    "peso": "115 g/m²",
+    "elast": "Ligera",
+    "ben": [
+      "Ligero y fresco al vestir",
+      "Suave y cómodo al tacto",
+      "Diseño clásico de rayas",
+      "Buena opción para prendas sueltas y de verano"
+    ],
+    "usos": "camisas, blusas, vestidos, faldas, shorts, pantalones ligeros y conjuntos",
+    "temp": "Primavera · verano",
+    "heroProv": false,
+    "colors": [
+      {
+        "code": "",
+        "name": "Negro",
+        "img": "img/nansu-rayas/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Celeste",
+        "img": "img/nansu-rayas/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Azul",
+        "img": "img/nansu-rayas/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Marrón",
+        "img": "img/nansu-rayas/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Olivo",
+        "img": "img/nansu-rayas/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Palo rosa",
+        "img": "img/nansu-rayas/06.jpg",
+        "agotado": false
+      }
+    ]
+  },
+  {
+    "slug": "gasa-print",
+    "cat": "fluidas",
+    "name": "Gasa Print",
+    "sub": "GASAS · ESTAMPADO FLORAL",
+    "hero": "img/gasa-print/portada.jpg",
+    "pm": 12,
+    "pr": 11,
+    "comp": "Consultar",
+    "ancho": "Consultar",
+    "peso": "Consultar",
+    "elast": "Sin elasticidad",
+    "ben": [
+      "Ligera y vaporosa al vestir",
+      "Estampado floral delicado",
+      "Hilos con brillo sutil",
+      "Caída fluida y femenina"
+    ],
+    "usos": "blusas, vestidos, faldas, kimonos, mangas y conjuntos",
+    "temp": "Primavera · verano",
+    "heroProv": false,
+    "colors": [
+      {
+        "code": "",
+        "name": "Vino",
+        "img": "img/gasa-print/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Botella",
+        "img": "img/gasa-print/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Olivo",
+        "img": "img/gasa-print/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Celeste",
+        "img": "",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Rosado bebé",
+        "img": "img/gasa-print/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Palo rosa",
+        "img": "img/gasa-print/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Blanco",
+        "img": "img/gasa-print/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Lacre",
+        "img": "img/gasa-print/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Negro",
+        "img": "img/gasa-print/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Melón",
+        "img": "img/gasa-print/10.jpg",
+        "agotado": false
+      }
+    ],
+    "rollo": "60 m"
+  },
+  {
+    "slug": "licra-tachas",
+    "cat": "licras",
+    "name": "Licra tachas",
+    "sub": "LICRAS · CON TACHAS",
+    "hero": "img/licra-tachas/portada.jpg",
+    "pm": 14,
+    "pr": 13,
+    "comp": "96% poliéster / 4% spandex",
+    "ancho": "1.60 m",
+    "peso": "250 g/m",
+    "elast": "En ambos sentidos",
+    "ben": [
+      "Elástica y cómoda al vestir",
+      "Tachas decorativas con brillo",
+      "Buena caída y adaptación al cuerpo",
+      "Para prendas llamativas y de noche"
+    ],
+    "usos": "tops, vestidos, faldas, conjuntos, bodys y prendas de fiesta",
+    "temp": "Todo el año · eventos",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/licra-tachas/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Cobalto",
+        "img": "img/licra-tachas/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Vino",
+        "img": "img/licra-tachas/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Rojo",
+        "img": "img/licra-tachas/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Olivo",
+        "img": "img/licra-tachas/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Rosado",
+        "img": "img/licra-tachas/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Beige",
+        "img": "img/licra-tachas/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Perla",
+        "img": "img/licra-tachas/08.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "broderi-flores",
+    "cat": "encajes",
+    "name": "Broderi flores",
+    "sub": "BORDADOS · DISEÑO FLORES",
+    "hero": "img/broderi-flores/portada.jpg",
+    "pm": 15,
+    "pr": 14,
+    "comp": "Algodón y poliéster",
+    "ancho": "1.50 m",
+    "peso": "Consultar",
+    "elast": "Sin elasticidad",
+    "ben": [
+      "Bordado floral delicado",
+      "Fresco y ligero",
+      "Textura con buen relieve",
+      "Ideal para prendas de verano"
+    ],
+    "usos": "blusas, vestidos, faldas, shorts, mangas y conjuntos",
+    "temp": "Primavera · verano",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/broderi-flores/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Acero",
+        "img": "img/broderi-flores/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Beige",
+        "img": "img/broderi-flores/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Topo",
+        "img": "img/broderi-flores/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Militar",
+        "img": "img/broderi-flores/05.jpg",
+        "agotado": true
+      },
+      {
+        "code": "06",
+        "name": "Maíz",
+        "img": "img/broderi-flores/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Agua",
+        "img": "img/broderi-flores/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Fucsia",
+        "img": "img/broderi-flores/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Palo rosa",
+        "img": "img/broderi-flores/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Manteca",
+        "img": "img/broderi-flores/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Perla",
+        "img": "img/broderi-flores/11.jpg",
+        "agotado": true
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "broderi-cenefa",
+    "cat": "encajes",
+    "name": "Broderi con cenefa",
+    "sub": "BORDADOS · CON CENEFA",
+    "hero": "img/broderi-cenefa/portada.jpg",
+    "pm": 16,
+    "pr": 15,
+    "comp": "96% algodón / 4% poliéster",
+    "ancho": "1.33 m útil",
+    "peso": "132 g/m²",
+    "elast": "Sin elasticidad",
+    "ben": [
+      "Bordado floral elegante",
+      "Fresco y ligero al vestir",
+      "Cenefa ideal para terminaciones",
+      "Textura y detalle sin recargar"
+    ],
+    "usos": "blusas, vestidos, shorts, faldas, mangas y conjuntos",
+    "temp": "Primavera · verano",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/broderi-cenefa/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Marrón",
+        "img": "img/broderi-cenefa/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Amarillo maíz",
+        "img": "img/broderi-cenefa/03.jpg",
+        "agotado": true
+      },
+      {
+        "code": "04",
+        "name": "Perla",
+        "img": "img/broderi-cenefa/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Blanco",
+        "img": "img/broderi-cenefa/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Palo rosa",
+        "img": "img/broderi-cenefa/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Vino",
+        "img": "img/broderi-cenefa/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Rojo",
+        "img": "img/broderi-cenefa/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Olivo",
+        "img": "img/broderi-cenefa/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Celeste",
+        "img": "img/broderi-cenefa/10.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "30 m"
+  },
+  {
+    "slug": "licra-foil",
+    "cat": "licras",
+    "name": "Licra Foil",
+    "sub": "LICRAS · CON BRILLO",
+    "hero": "img/licra-foil/portada.jpg",
+    "pm": 12,
+    "pr": 11,
+    "comp": "Poliéster y spandex",
+    "ancho": "1.60 m",
+    "peso": "Consultar",
+    "elast": "En ambos sentidos",
+    "ben": [
+      "Brillo con efecto metálico",
+      "Elástica y adaptable al cuerpo",
+      "Textura llamativa, de impacto",
+      "Ideal para fiesta y escenario"
+    ],
+    "usos": "tops, bodys, vestidos, faldas, conjuntos, ropa de baile y fiesta",
+    "temp": "Todo el año · eventos",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/licra-foil/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Guinda",
+        "img": "img/licra-foil/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Topo",
+        "img": "img/licra-foil/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Vino",
+        "img": "img/licra-foil/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Beige",
+        "img": "img/licra-foil/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Palo rosa",
+        "img": "img/licra-foil/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Perla",
+        "img": "img/licra-foil/07.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false
+  },
+  {
+    "slug": "satin-sara",
+    "cat": "fiesta",
+    "name": "Satín Sara nacarado",
+    "sub": "SATINES · ACABADO NACARADO",
+    "hero": "img/satin-sara/portada.jpg",
+    "pm": 14,
+    "pr": 13,
+    "comp": "95% poliéster / 5% spandex",
+    "ancho": "1.60 m",
+    "peso": "250 g/m",
+    "elast": "Poca",
+    "ben": [
+      "Acabado brillante y nacarado",
+      "Firme, pero suave al tacto",
+      "No transparenta",
+      "Resistente a confección y uso"
+    ],
+    "usos": "vestidos, corsets, tops estructurados y prendas de ocasión",
+    "temp": "Verano · otoño · invierno",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Guinda",
+        "img": "img/satin-sara/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Rojo",
+        "img": "img/satin-sara/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Beige oscuro",
+        "img": "img/satin-sara/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Rosa nude",
+        "img": "img/satin-sara/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Palo rosa",
+        "img": "img/satin-sara/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Muss",
+        "img": "img/satin-sara/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Azulino",
+        "img": "img/satin-sara/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Acero",
+        "img": "img/satin-sara/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Dorado",
+        "img": "img/satin-sara/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Lila",
+        "img": "img/satin-sara/13.jpg",
+        "agotado": false
+      },
+      {
+        "code": "14",
+        "name": "Negro",
+        "img": "img/satin-sara/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Blanco",
+        "img": "img/satin-sara/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Azul noche",
+        "img": "img/satin-sara/16.jpg",
+        "agotado": false
+      },
+      {
+        "code": "17",
+        "name": "Marrón",
+        "img": "img/satin-sara/17.jpg",
+        "agotado": false
+      },
+      {
+        "code": "18",
+        "name": "Botella",
+        "img": "img/satin-sara/18.jpg",
+        "agotado": false
+      },
+      {
+        "code": "19",
+        "name": "Petróleo",
+        "img": "img/satin-sara/19.jpg",
+        "agotado": false
+      },
+      {
+        "code": "20",
+        "name": "Olivo",
+        "img": "img/satin-sara/20.jpg",
+        "agotado": false
+      },
+      {
+        "code": "21",
+        "name": "Beige claro",
+        "img": "img/satin-sara/21.jpg",
+        "agotado": false
+      },
+      {
+        "code": "22",
+        "name": "Celeste",
+        "img": "img/satin-sara/22.jpg",
+        "agotado": true
+      },
+      {
+        "code": "23",
+        "name": "Barney",
+        "img": "img/satin-sara/23.jpg",
+        "agotado": false
+      },
+      {
+        "code": "24",
+        "name": "Perla",
+        "img": "img/satin-sara/24.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "50 a 70 m"
+  },
+  {
+    "slug": "bambula-caigua",
+    "cat": "encajes",
+    "name": "Bambula caigua",
+    "sub": "BORDADOS · DISEÑO CAIGUA",
+    "hero": "img/bambula-caigua/portada.jpg",
+    "pm": 16,
+    "pr": 15,
+    "comp": "100% poliéster",
+    "ancho": "1.42 m",
+    "peso": "150 g/m²",
+    "elast": "Nula o muy baja",
+    "ben": [
+      "Ligera y fresca al vestir",
+      "Bordado de diseño llamativo",
+      "Buena caída en prendas sueltas",
+      "Fácil de combinar con forro"
+    ],
+    "usos": "blusas, vestidos, faldas, palazzos, kimonos, mangas y conjuntos",
+    "temp": "Primavera · verano",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/bambula-caigua/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Marrón",
+        "img": "img/bambula-caigua/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Mantequilla",
+        "img": "img/bambula-caigua/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Perla",
+        "img": "img/bambula-caigua/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Celeste",
+        "img": "img/bambula-caigua/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Rosado",
+        "img": "img/bambula-caigua/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Vino",
+        "img": "img/bambula-caigua/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Olivo",
+        "img": "img/bambula-caigua/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Amarillo maíz",
+        "img": "img/bambula-caigua/09.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "50 a 60 m"
+  },
+  {
+    "slug": "bambula-cuadrados",
+    "cat": "encajes",
+    "name": "Bambula cuadrados",
+    "sub": "BORDADOS · DISEÑO CUADRADOS",
+    "hero": "img/bambula-cuadrados/portada.jpg",
+    "pm": 16,
+    "pr": 15,
+    "comp": "100% poliéster",
+    "ancho": "1.42 m",
+    "peso": "150 g/m²",
+    "elast": "Nula o muy baja",
+    "ben": [
+      "Ligera y fresca al vestir",
+      "Bordado de diseño llamativo",
+      "Buena caída en prendas sueltas",
+      "Fácil de combinar con forro"
+    ],
+    "usos": "blusas, vestidos, faldas, palazzos, kimonos, mangas y conjuntos",
+    "temp": "Primavera · verano",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro",
+        "img": "img/bambula-cuadrados/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Marrón",
+        "img": "img/bambula-cuadrados/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Mantequilla",
+        "img": "img/bambula-cuadrados/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Blanco",
+        "img": "img/bambula-cuadrados/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Olivo",
+        "img": "img/bambula-cuadrados/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Rosado",
+        "img": "img/bambula-cuadrados/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Vino",
+        "img": "img/bambula-cuadrados/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Celeste",
+        "img": "img/bambula-cuadrados/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Amarillo maíz",
+        "img": "img/bambula-cuadrados/09.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "50 a 60 m"
+  },
+  {
+    "slug": "licra-diamantes",
+    "cat": "licras",
+    "name": "Licra con diamantes",
+    "sub": "LICRAS · CON DIAMANTES",
+    "hero": "img/licra-diamantes/portada.jpg",
+    "pm": 16,
+    "pr": 15,
+    "comp": "Poliéster y spandex",
+    "ancho": "1.60 m",
+    "peso": "Consultar",
+    "elast": "En ambos sentidos",
+    "ben": [
+      "Elástica y adaptable al cuerpo",
+      "Diamantes con brillo decorativo",
+      "Suave y cómoda, para ceñidas",
+      "Acabado elegante y llamativo"
+    ],
+    "usos": "tops, bodys, vestidos, faldas, conjuntos, ropa de baile y fiesta",
+    "temp": "Todo el año · eventos",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Negro · diam. cristal",
+        "img": "img/licra-diamantes/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Negro · diam. negros",
+        "img": "img/licra-diamantes/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "03",
+        "name": "Camello",
+        "img": "img/licra-diamantes/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Beige",
+        "img": "img/licra-diamantes/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Hueso",
+        "img": "img/licra-diamantes/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Perla",
+        "img": "img/licra-diamantes/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Olivo",
+        "img": "img/licra-diamantes/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Rosado bebé",
+        "img": "img/licra-diamantes/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Vino · diam. cristal",
+        "img": "img/licra-diamantes/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Vino · diam. vino",
+        "img": "img/licra-diamantes/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Rojo · diam. cristal",
+        "img": "img/licra-diamantes/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Rojo · diam. rojos",
+        "img": "img/licra-diamantes/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Marrón",
+        "img": "img/licra-diamantes/13.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "60 a 80 m"
+  },
+  {
+    "slug": "glitter",
+    "cat": "fiesta",
+    "name": "Glitter",
+    "sub": "TUL BORDADO · GLITTER Y LENTEJUELAS",
+    "hero": "img/glitter/portada.jpg",
+    "pm": 19,
+    "pr": 18,
+    "comp": "Poliéster",
+    "ancho": "1.50 m",
+    "peso": "Consultar",
+    "elast": "Baja o nula",
+    "ben": [
+      "Bordado con glitter y lentejuelas",
+      "Brillo intenso, acabado elegante",
+      "Diseño de alto impacto visual",
+      "Para fiesta y ocasiones especiales"
+    ],
+    "usos": "vestidos de fiesta y de noche, corsets, tops, faldas y mangas",
+    "temp": "Todo el año · eventos",
+    "colors": [
+      {
+        "code": "01",
+        "name": "Lacre",
+        "img": "img/glitter/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "02",
+        "name": "Marrón",
+        "img": "img/glitter/02.jpg",
+        "agotado": true
+      },
+      {
+        "code": "03",
+        "name": "Beige",
+        "img": "img/glitter/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "04",
+        "name": "Rosa nude",
+        "img": "img/glitter/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "05",
+        "name": "Celeste",
+        "img": "img/glitter/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "06",
+        "name": "Palo rosa",
+        "img": "img/glitter/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "07",
+        "name": "Lila",
+        "img": "img/glitter/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "08",
+        "name": "Dorado",
+        "img": "img/glitter/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "09",
+        "name": "Botella",
+        "img": "img/glitter/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "10",
+        "name": "Azul noche",
+        "img": "img/glitter/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "11",
+        "name": "Olivo",
+        "img": "img/glitter/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "12",
+        "name": "Plata",
+        "img": "img/glitter/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "13",
+        "name": "Rojo",
+        "img": "img/glitter/13.jpg",
+        "agotado": true
+      },
+      {
+        "code": "14",
+        "name": "Azulino",
+        "img": "img/glitter/14.jpg",
+        "agotado": false
+      },
+      {
+        "code": "15",
+        "name": "Perico",
+        "img": "img/glitter/15.jpg",
+        "agotado": false
+      },
+      {
+        "code": "16",
+        "name": "Guinda",
+        "img": "img/glitter/16.jpg",
+        "agotado": false
+      },
+      {
+        "code": "17",
+        "name": "Negro",
+        "img": "img/glitter/17.jpg",
+        "agotado": false
+      }
+    ],
+    "heroProv": false,
+    "rollo": "50 m"
+  }
 ]
