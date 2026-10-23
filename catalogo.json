@@ -1216,8 +1216,8 @@
     "pm": 12,
     "pr": 11,
     "comp": "Consultar",
-    "ancho": "Consultar",
-    "peso": "Consultar",
+    "ancho": "1.50 m",
+    "peso": "79 g/m²",
     "elast": "Sin elasticidad",
     "ben": [
       "Ligera y vaporosa al vestir",
@@ -1273,7 +1273,7 @@
       },
       {
         "code": "",
-        "name": "Lacre",
+        "name": "Terracota",
         "img": "img/gasa-print/08.jpg",
         "agotado": false
       },
