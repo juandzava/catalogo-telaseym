@@ -781,6 +781,108 @@
     "heroProv": false
   },
   {
+    "slug": "stone-latex",
+    "cat": "sastreria",
+    "name": "Stone Latex",
+    "sub": "SASTRERÍA · TEJIDO SARGA",
+    "hero": "img/stone-latex/portada.jpg",
+    "pm": 12,
+    "pr": 11,
+    "comp": "74% viscosa / 19% poliamida / 7% spandex",
+    "ancho": "1.50 m",
+    "peso": "230 g/m",
+    "elast": "Con elasticidad",
+    "ben": [
+      "Suave al tacto, no transparenta",
+      "Brillo ligero y elegante",
+      "Resistente al uso diario",
+      "Lavado a mano o máquina"
+    ],
+    "usos": "pantalones, sacos, casacas, vestidos y chalecos",
+    "temp": "Todo el año",
+    "heroProv": true,
+    "colors": [
+      {
+        "code": "",
+        "name": "Negro",
+        "img": "img/stone-latex/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Guinda",
+        "img": "img/stone-latex/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Vino",
+        "img": "img/stone-latex/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Azul noche",
+        "img": "img/stone-latex/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Botella",
+        "img": "img/stone-latex/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Camello",
+        "img": "img/stone-latex/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Beige",
+        "img": "img/stone-latex/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Rosado",
+        "img": "img/stone-latex/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Menta",
+        "img": "img/stone-latex/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Blanco",
+        "img": "img/stone-latex/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Perla",
+        "img": "img/stone-latex/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Marrón",
+        "img": "img/stone-latex/12.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Topo",
+        "img": "img/stone-latex/13.jpg",
+        "agotado": false
+      }
+    ]
+  },
+  {
     "slug": "seda-bucare",
     "cat": "fluidas",
     "name": "Seda Bucaré",
