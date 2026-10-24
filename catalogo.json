@@ -800,7 +800,7 @@
     ],
     "usos": "pantalones, sacos, casacas, vestidos y chalecos",
     "temp": "Todo el año",
-    "heroProv": true,
+    "heroProv": false,
     "colors": [
       {
         "code": "",
