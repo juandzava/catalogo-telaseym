@@ -161,6 +161,10 @@ img{max-width:100%;display:block}
 .card .pr{font-size:14px;margin-top:4px}
 .card .pr b{font-size:17px}
 .card .pr span{color:var(--muted)}
+.card .hits{font-size:13px;color:var(--green);font-weight:700;margin-top:4px;line-height:1.3}
+.sw.hit .im{box-shadow:0 0 0 3px var(--navy);}
+.sw.hit .code::before{content:'● ';color:var(--green-2)}
+.hitnote{margin:0 0 14px;font-size:14px;color:var(--green);font-weight:700}
 main{padding-bottom:24px}
 .empty{padding:40px 0;color:var(--muted);text-align:center}
 
@@ -386,6 +390,33 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 let DATA = [], cat = 'todas';
 
+/* familias de color: así "verde" encuentra Botella, Olivo, Menta, etc. */
+const FAM = [
+  [['verde','green'], ['verde','botella','olivo','menta','esmeralda','militar','loro','perico','muss','petroleo']],
+  [['azul','blue'], ['azul','azulino','celeste','cobalto','acero','petroleo','turquesa','aqua','agua']],
+  [['celeste'], ['celeste','agua','aqua','turquesa']],
+  [['rojo','red'], ['rojo','vino','guinda','lacre']],
+  [['rosa','rosado','rosada','pink'], ['rosa','rosado','palo rosa','dusty rose','fucsia','magenta','malva','nude']],
+  [['morado','lila','purpura','violeta','lavanda'], ['morado','lila','barney','malva','magenta']],
+  [['amarillo','yellow'], ['amarillo','maiz','mantequilla','manteca','dorado']],
+  [['naranja','anaranjado','orange'], ['naranja','mandarina','melon','terracota']],
+  [['marron','cafe','chocolate','brown'], ['marron','camello','topo','galleta','terracota']],
+  [['beige','beis','crema','nude','arena','hueso'], ['beige','hueso','marfil','perla','galleta','manteca','mantequilla','nude','camello']],
+  [['blanco','white'], ['blanco','hueso','marfil','perla']],
+  [['negro','black'], ['negro']],
+  [['gris','plomo','plateado','plata'], ['plomo','cemento','acero','plata','perla']],
+  [['dorado','oro'], ['dorado']],
+  [['vino','guinda','granate'], ['vino','guinda']]
+];
+const sing = q => q.length > 4 && q.endsWith('es') && !q.endsWith('ies') ? q.slice(0,-2) : (q.length > 3 && q.endsWith('s') ? q.slice(0,-1) : q);
+function colorHits(f, raw){
+  const q = norm(raw).trim(); if (!q) return [];
+  const qs = sing(q);
+  const fams = q.length >= 3 ? FAM.filter(([al]) => al.some(a => a.startsWith(q) || a.startsWith(qs) || (qs.length >= 4 && qs.startsWith(a)))) : [];
+  const keys = fams.flatMap(x => x[1]);
+  return f.colors.map((c,i) => [c,i]).filter(([c]) => { const n = norm(c.name); return n.includes(q) || n.includes(qs) || keys.some(k => n.includes(k)); });
+}
+
 ['barWa','infoWa','fab'].forEach(id => document.getElementById(id).href = waLink('Hola, vi el catálogo web de Telas E&M y quiero hacer una consulta.'));
 
 document.getElementById('banks').innerHTML = BANKS.map(([b, accs]) =>
@@ -408,13 +439,14 @@ document.getElementById('q').addEventListener('input', renderGrid);
 
 function renderGrid(){
   const q = norm(document.getElementById('q').value.trim());
+  const raw = document.getElementById('q').value;
   const list = DATA.filter(f => (cat === 'todas' || f.cat === cat) &&
-    (!q || norm(f.name + ' ' + f.sub + ' ' + f.colors.map(c => c.name).join(' ')).includes(q)));
+    (!q || norm(f.name + ' ' + f.sub).includes(q) || colorHits(f, raw).length));
   document.getElementById('grid').innerHTML = list.length ? list.map(f => `
     <a class="card" href="#${f.slug}">
       <div class="ph"><img src="${f.hero}" alt="${esc(f.name)}" loading="lazy"><span class="n">${f.colors.length} COLORES</span></div>
       <div class="tx"><span class="cat">${esc(CATS.find(c=>c[0]===f.cat)[1])}</span><h3>${esc(f.name)}</h3>
-      <div class="pr"><b>S/ ${f.pm}</b> el metro<br><span>S/ ${f.pr} por rollo</span></div></div>
+      <div class="pr"><b>S/ ${f.pm}</b> el metro<br><span>S/ ${f.pr} por rollo</span></div>${(() => { if (!q || norm(f.name + ' ' + f.sub).includes(q)) return ''; const h = colorHits(f, raw); return h.length ? `<div class="hits">${h.slice(0,4).map(([c]) => esc(c.name)).join(', ')}${h.length > 4 ? ` y ${h.length-4} más` : ''}</div>` : ''; })()}</div>
     </a>`).join('') : `<p class="empty" style="grid-column:1/-1">No encontramos esa tela. Prueba con otro nombre o escríbenos por WhatsApp.</p>`;
 }
 
@@ -422,6 +454,8 @@ function spec(label, v){ const ask = !v || v === 'Consultar'; return `<div><dt>$
 
 function renderDetail(f){
   const out = f.colors.filter(c => c.agotado).length;
+  const rawQ = document.getElementById('q').value;
+  const hitSet = new Set(rawQ.trim() && !norm(f.name + ' ' + f.sub).includes(norm(rawQ.trim())) ? colorHits(f, rawQ).map(([,i]) => i) : []);
   const d = document.getElementById('detail');
   d.innerHTML = `<div class="wrap">
     <a class="back" href="#telas" data-home>← Todas las telas</a>
@@ -437,8 +471,8 @@ function renderDetail(f){
       </div>
     </div>
     <div class="sec-h"><h2>${f.colors.length} colores</h2><p>Toca los colores que quieras y agrégalos a tu pedido${out ? ` · ${out} agotado${out>1?'s':''} por ahora` : ''}</p></div>
-    <div class="swatches">${f.colors.map((c,i) => `
-      <button class="sw${c.agotado?' out':''}" data-i="${i}" data-k="${f.slug}|${i}" aria-label="${c.code ? 'Código ' + c.code + ' ' : ''}${esc(c.name)}${c.agotado?', agotado':''}">
+    ${hitSet.size ? `<p class="hitnote">● Marcamos los colores que coinciden con "${esc(rawQ.trim())}"</p>` : ''}<div class="swatches">${f.colors.map((c,i) => `
+      <button class="sw${c.agotado?' out':''}${hitSet.has(i)?' hit':''}" data-i="${i}" data-k="${f.slug}|${i}" aria-label="${c.code ? 'Código ' + c.code + ' ' : ''}${esc(c.name)}${c.agotado?', agotado':''}">
         <span class="im">${c.img ? `<img src="${c.img}" alt="" loading="lazy">` : '<span class="nofoto">Foto pronto</span>'}${c.agotado ? '<span class="tag-out">AGOTADO</span>' : ''}</span>
         <span class="code">${c.code || esc(c.name)}<i class="ok" aria-label="en tu pedido">✓ En pedido</i></span><span class="nm">${c.code ? esc(c.name) : ''}</span>
       </button>`).join('')}</div>
