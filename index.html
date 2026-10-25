@@ -62,6 +62,25 @@
   ]
 }
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y60QGDJ1EG"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Y60QGDJ1EG');
+// Eventos de conversión: clics en WhatsApp y en el pedido
+document.addEventListener('click', function(e){
+  try {
+    var el = e.target.closest && e.target.closest('a,button');
+    if (!el) return;
+    if (el.id === 'cartOpen') { gtag('event', 'ver_pedido'); return; }
+    if (el.tagName === 'A' && /^https:\/\/wa\.me\//.test(el.href)) {
+      var lugares = {barWa:'barra', infoWa:'contacto', fab:'flotante', cartSend:'pedido'};
+      gtag('event', el.id === 'cartSend' ? 'enviar_pedido_whatsapp' : 'click_whatsapp', {ubicacion: lugares[el.id] || 'avisame_cuando_llegue'});
+    }
+  } catch (_) {}
+}, true);
+</script>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
