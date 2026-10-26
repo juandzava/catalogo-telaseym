@@ -442,12 +442,13 @@ function renderGrid(){
   const raw = document.getElementById('q').value;
   const list = DATA.filter(f => (cat === 'todas' || f.cat === cat) &&
     (!q || norm(f.name + ' ' + f.sub).includes(q) || colorHits(f, raw).length));
-  document.getElementById('grid').innerHTML = list.length ? list.map(f => `
+  const pick = f => { if (!q || norm(f.name + ' ' + f.sub).includes(q)) return null; const h = colorHits(f, raw).map(x => x[0]).filter(c => c.hero || c.img); return h.find(c => !c.agotado) || h[0] || null; };
+  document.getElementById('grid').innerHTML = list.length ? list.map(f => { const pc = pick(f); return `
     <a class="card" href="#${f.slug}">
-      <div class="ph"><img src="${f.hero}" alt="${esc(f.name)}" loading="lazy"><span class="n">${f.colors.length} COLORES</span></div>
+      <div class="ph"><img src="${pc ? (pc.hero || pc.img) : f.hero}" alt="${esc(f.name)}${pc ? ' ' + esc(pc.name) : ''}" loading="lazy"><span class="n">${f.colors.length} COLORES</span></div>
       <div class="tx"><span class="cat">${esc(CATS.find(c=>c[0]===f.cat)[1])}</span><h3>${esc(f.name)}</h3>
       <div class="pr"><b>S/ ${f.pm}</b> el metro<br><span>S/ ${f.pr} por rollo</span></div>${(() => { if (!q || norm(f.name + ' ' + f.sub).includes(q)) return ''; const h = colorHits(f, raw); return h.length ? `<div class="hits">${h.slice(0,4).map(([c]) => esc(c.name)).join(', ')}${h.length > 4 ? ` y ${h.length-4} más` : ''}</div>` : ''; })()}</div>
-    </a>`).join('') : `<p class="empty" style="grid-column:1/-1">No encontramos esa tela. Prueba con otro nombre o escríbenos por WhatsApp.</p>`;
+    </a>`; }).join('') : `<p class="empty" style="grid-column:1/-1">No encontramos esa tela. Prueba con otro nombre o escríbenos por WhatsApp.</p>`;
 }
 
 function spec(label, v){ const ask = !v || v === 'Consultar'; return `<div><dt>${label}</dt><dd class="${ask?'ask':''}">${ask ? 'Consultar' : esc(v)}</dd></div>`; }
@@ -460,7 +461,7 @@ function renderDetail(f){
   d.innerHTML = `<div class="wrap">
     <a class="back" href="#telas" data-home>← Todas las telas</a>
     <div class="dh">
-      <div class="ph"><img src="${f.hero}" alt="${esc(f.name)}"></div>
+      <div class="ph"><img src="${(() => { const c = [...hitSet].map(i => f.colors[i]).filter(c => c.hero || c.img); const p = c.find(x => !x.agotado) || c[0]; return p ? (p.hero || p.img) : f.hero; })()}" alt="${esc(f.name)}"></div>
       <div>
         <div class="eyebrow">${esc(f.sub)}</div>
         <h1>${esc(f.name)}</h1>
