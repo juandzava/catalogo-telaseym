@@ -1860,6 +1860,103 @@
     "rollo": "50 a 70 m"
   },
   {
+    "slug": "satin-sasha",
+    "cat": "fiesta",
+    "name": "Satín Sasha",
+    "sub": "SATINES · COLOR ENTERO",
+    "hero": "img/satin-sasha/portada.jpg",
+    "pm": 12,
+    "pr": 11,
+    "comp": "97% poliéster / 3% spandex",
+    "ancho": "1.50 m",
+    "peso": "170 g/m²",
+    "elast": "Ligera",
+    "ben": [
+      "Acabado satinado elegante",
+      "Textura lisa y tacto suave",
+      "Caída suave y favorecedora",
+      "Versátil para confeccionar"
+    ],
+    "usos": "vestidos, blusas, faldas, tops, pantalones y conjuntos",
+    "temp": "Primavera · verano · otoño",
+    "heroProv": true,
+    "rollo": "64 m",
+    "colors": [
+      {
+        "code": "",
+        "name": "Negro",
+        "img": "img/satin-sasha/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Azul noche",
+        "img": "img/satin-sasha/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Marrón",
+        "img": "img/satin-sasha/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Terracota",
+        "img": "img/satin-sasha/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Verde militar",
+        "img": "img/satin-sasha/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Vino",
+        "img": "img/satin-sasha/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Rojo",
+        "img": "img/satin-sasha/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Esmeralda",
+        "img": "img/satin-sasha/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Amarillo",
+        "img": "img/satin-sasha/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Rosado",
+        "img": "img/satin-sasha/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Crema",
+        "img": "img/satin-sasha/11.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Perla",
+        "img": "img/satin-sasha/12.jpg",
+        "agotado": false
+      }
+    ]
+  },
+  {
     "slug": "bambula-caigua",
     "cat": "encajes",
     "name": "Bambula caigua",
