@@ -1396,6 +1396,97 @@
     "rollo": "60 m"
   },
   {
+    "slug": "gasa-bondi",
+    "cat": "fluidas",
+    "name": "Gasa Bondi",
+    "sub": "GASAS · COLOR ENTERO",
+    "hero": "img/gasa-bondi/portada.jpg",
+    "pm": 14,
+    "pr": 13,
+    "comp": "100% poliéster",
+    "ancho": "1.50 m",
+    "peso": "55 g/m²",
+    "elast": "Sin elasticidad",
+    "ben": [
+      "Tejido ligero y delicado",
+      "Acabado satinado sutil",
+      "Ideal para prendas vaporosas",
+      "Para diseños fluidos y elegantes"
+    ],
+    "usos": "blusas, vestidos, faldas, mangas, kimonos, capas y conjuntos",
+    "temp": "Primavera · verano",
+    "heroProv": false,
+    "rollo": "67 m",
+    "colors": [
+      {
+        "code": "",
+        "name": "Negro",
+        "img": "img/gasa-bondi/01.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Vino",
+        "img": "img/gasa-bondi/02.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Rojo",
+        "img": "img/gasa-bondi/03.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Turquesa",
+        "img": "img/gasa-bondi/04.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Celeste",
+        "img": "img/gasa-bondi/05.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Agua",
+        "img": "img/gasa-bondi/06.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Rosa nude",
+        "img": "img/gasa-bondi/07.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Amarillo",
+        "img": "img/gasa-bondi/08.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Palo rosa",
+        "img": "img/gasa-bondi/09.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Blanco",
+        "img": "img/gasa-bondi/10.jpg",
+        "agotado": false
+      },
+      {
+        "code": "",
+        "name": "Perla",
+        "img": "img/gasa-bondi/11.jpg",
+        "agotado": false
+      }
+    ]
+  },
+  {
     "slug": "licra-tachas",
     "cat": "licras",
     "name": "Licra tachas",
