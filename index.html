@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<base href="/">
 <meta name="google-site-verification" content="SJ8FL6u_6XYkh4HV9M7LElaJMP00a5boTEaqFMjrS64" />
 <title>Telas en Gamarra por metro y por rollo | E&amp;M Estilos y Tendencias</title>
 <meta name="description" content="Telas importadas en Gamarra, Lima: licras, sastrería, linos, encajes y más. Desde 1 metro, precio por rollo, delivery y pedidos por WhatsApp.">
@@ -13,13 +14,13 @@
 <meta property="og:title" content="Telas en Gamarra por metro y por rollo | E&amp;M Estilos y Tendencias">
 <meta property="og:description" content="Telas importadas en Gamarra, Lima: licras, sastrería, linos, encajes y más. Desde 1 metro, precio por rollo, delivery y pedidos por WhatsApp.">
 <meta property="og:url" content="https://telaseym.com/">
-<meta property="og:image" content="https://telaseym.com/favicon-512.png">
-<meta property="og:image:width" content="512">
-<meta property="og:image:height" content="512">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://telaseym.com/img/og-home.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Telas en Gamarra por metro y por rollo | E&amp;M Estilos y Tendencias">
 <meta name="twitter:description" content="Telas importadas en Gamarra, Lima: licras, sastrería, linos, encajes y más. Desde 1 metro, precio por rollo, delivery y pedidos por WhatsApp.">
-<meta name="twitter:image" content="https://telaseym.com/favicon-512.png">
+<meta name="twitter:image" content="https://telaseym.com/img/og-home.jpg">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -297,6 +298,17 @@ body:has(.cartbar:not([hidden])) footer{padding-bottom:72px}
 .cq .cu{font-size:12px;padding:0 8px;background:var(--paper)}
 .cart .rm{border:0;background:none;font-size:20px;color:var(--muted);cursor:pointer;padding:2px 6px}
 .cart-foot{display:flex;justify-content:space-between}
+
+/* nuevo, compartir, relacionadas, transiciones */
+.card .new{position:absolute;left:8px;top:8px;background:var(--green);color:#fff;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:800;letter-spacing:.08em}
+.card .ph img{transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.card:hover .ph img{transform:scale(1.05)}
+.newchip{background:var(--green);color:#fff;border-radius:999px;padding:2px 9px;font-size:10.5px;letter-spacing:.08em;margin-left:6px;vertical-align:1px}
+.share{margin-top:14px;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:9px 16px;font-weight:700;font-size:14px;cursor:pointer}
+.share:hover{background:var(--soft)}
+.related{padding-top:14px}
+#home:not([hidden]),#detail:not([hidden]){animation:fadein .35s ease both}
+@keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 </style>
 </head>
 <body>
@@ -304,12 +316,12 @@ body:has(.cartbar:not([hidden])) footer{padding-bottom:72px}
 
 <header class="bar">
   <div class="wrap">
-    <a class="brand" href="#" data-home>
+    <a class="brand" href="/" data-home>
       <img src="img/logo.png" alt="Logo E&amp;M" width="40" height="40">
       <span><small>Gamarra · Lima</small><b>Telas E&amp;M</b></span>
     </a>
     <nav aria-label="Secciones">
-      <a href="#telas" data-home>Telas</a>
+      <a href="/#telas" data-home>Telas</a>
       <a href="#comprar">Cómo comprar</a>
       <a href="#pagos">Pagos</a>
       <a href="#contacto">Contacto</a>
@@ -443,12 +455,29 @@ function renderGrid(){
   const list = DATA.filter(f => (cat === 'todas' || f.cat === cat) &&
     (!q || norm(f.name + ' ' + f.sub).includes(q) || colorHits(f, raw).length));
   const pick = f => { if (!q || norm(f.name + ' ' + f.sub).includes(q)) return null; const h = colorHits(f, raw).map(x => x[0]).filter(c => c.hero || c.img); return h.find(c => !c.agotado) || h[0] || null; };
-  document.getElementById('grid').innerHTML = list.length ? list.map(f => { const pc = pick(f); return `
-    <a class="card" href="#${f.slug}">
-      <div class="ph"><img src="${pc ? (pc.hero || pc.img) : f.hero}" alt="${esc(f.name)}${pc ? ' ' + esc(pc.name) : ''}" loading="lazy"><span class="n">${f.colors.length} COLORES</span></div>
+  document.getElementById('grid').innerHTML = list.length ? list.map(f => { const pc = pick(f); const hit = (!q || norm(f.name + ' ' + f.sub).includes(q)) ? [] : colorHits(f, raw); return cardHTML(f, pc, hit); }).join('') : `<p class="empty" style="grid-column:1/-1">No encontramos esa tela. Prueba con otro nombre o escríbenos por WhatsApp.</p>`;
+}
+
+function cardHTML(f, pc, h){
+  h = h || [];
+  return `
+    <a class="card" href="/telas/${f.slug}/">
+      <div class="ph"><img src="${pc ? (pc.hero || pc.img) : f.hero}" alt="${esc(f.name)}${pc ? ' ' + esc(pc.name) : ''}" loading="lazy">${f.nuevo ? '<span class="new">NUEVO</span>' : ''}<span class="n">${f.colors.length} COLORES</span></div>
       <div class="tx"><span class="cat">${esc(CATS.find(c=>c[0]===f.cat)[1])}</span><h3>${esc(f.name)}</h3>
-      <div class="pr"><b>S/ ${f.pm}</b> el metro<br><span>S/ ${f.pr} por rollo</span></div>${(() => { if (!q || norm(f.name + ' ' + f.sub).includes(q)) return ''; const h = colorHits(f, raw); return h.length ? `<div class="hits">${h.slice(0,4).map(([c]) => esc(c.name)).join(', ')}${h.length > 4 ? ` y ${h.length-4} más` : ''}</div>` : ''; })()}</div>
-    </a>`; }).join('') : `<p class="empty" style="grid-column:1/-1">No encontramos esa tela. Prueba con otro nombre o escríbenos por WhatsApp.</p>`;
+      <div class="pr"><b>S/ ${f.pm}</b> el metro<br><span>S/ ${f.pr} por rollo</span></div>${h.length ? `<div class="hits">${h.slice(0,4).map(([c]) => esc(c.name)).join(', ')}${h.length > 4 ? ` y ${h.length-4} más` : ''}</div>` : ''}</div>
+    </a>`;
+}
+
+function related(f){
+  const same = DATA.filter(x => x.slug !== f.slug && x.cat === f.cat);
+  const rest = DATA.filter(x => x.slug !== f.slug && x.cat !== f.cat);
+  return [...same, ...rest].slice(0, 4);
+}
+function shareFabric(f){
+  const url = location.origin + '/telas/' + f.slug + '/';
+  const text = f.name + ' · S/ ' + f.pm + ' el metro · Telas E&M';
+  if (navigator.share) { navigator.share({title: f.name, text, url}).catch(() => {}); return; }
+  try { navigator.clipboard.writeText(url).then(() => toast('Enlace copiado')); } catch (_) { prompt('Copia el enlace', url); }
 }
 
 function spec(label, v){ const ask = !v || v === 'Consultar'; return `<div><dt>${label}</dt><dd class="${ask?'ask':''}">${ask ? 'Consultar' : esc(v)}</dd></div>`; }
@@ -459,16 +488,17 @@ function renderDetail(f){
   const hitSet = new Set(rawQ.trim() && !norm(f.name + ' ' + f.sub).includes(norm(rawQ.trim())) ? colorHits(f, rawQ).map(([,i]) => i) : []);
   const d = document.getElementById('detail');
   d.innerHTML = `<div class="wrap">
-    <a class="back" href="#telas" data-home>← Todas las telas</a>
+    <a class="back" href="/#telas" data-home>← Todas las telas</a>
     <div class="dh">
       <div class="ph"><img src="${(() => { const c = [...hitSet].map(i => f.colors[i]).filter(c => c.hero || c.img); const p = c.find(x => !x.agotado) || c[0]; return p ? (p.hero || p.img) : f.hero; })()}" alt="${esc(f.name)}"></div>
       <div>
-        <div class="eyebrow">${esc(f.sub)}</div>
+        <div class="eyebrow">${esc(f.sub)}${f.nuevo ? ' <span class="newchip">NUEVO</span>' : ''}</div>
         <h1>${esc(f.name)}</h1>
         <div class="price"><div><b>S/ ${f.pm}</b><span>el metro</span></div><div class="roll"><b>S/ ${f.pr}</b><span>por rollo</span></div></div>
         <dl class="specs">${spec('Composición', f.comp)}${spec('Ancho', f.ancho)}${spec('Rollo', f.rollo ? 'aprox. ' + f.rollo : '')}${spec('Peso', f.peso)}${spec('Elasticidad', f.elast)}</dl>
         <ul class="ben">${f.ben.map(b => `<li>${ICON_CHECK}<span>${esc(b)}</span></li>`).join('')}</ul>
         <div class="uso"><p><b>Ideal para:</b> ${esc(f.usos)}</p><p class="t">Temporada: ${esc(f.temp)}</p></div>
+        <button class="share" id="shareBtn" type="button">Compartir esta tela</button>
       </div>
     </div>
     <div class="sec-h"><h2>${f.colors.length} colores</h2><p>Toca los colores que quieras y agrégalos a tu pedido${out ? ` · ${out} agotado${out>1?'s':''} por ahora` : ''}</p></div>
@@ -477,7 +507,10 @@ function renderDetail(f){
         <span class="im">${c.img ? `<img src="${c.img}" alt="" loading="lazy">` : '<span class="nofoto">Foto pronto</span>'}${c.agotado ? '<span class="tag-out">AGOTADO</span>' : ''}</span>
         <span class="code">${c.code || esc(c.name)}<i class="ok" aria-label="en tu pedido">✓ En pedido</i></span><span class="nm">${c.code ? esc(c.name) : ''}</span>
       </button>`).join('')}</div>
+    <div class="sec-h"><h2>También te puede gustar</h2><p>Más telas de la misma línea</p></div>
+    <div class="grid related">${related(f).map(r => cardHTML(r)).join('')}</div>
   </div>`;
+  d.querySelector('#shareBtn').onclick = () => shareFabric(f);
   d.querySelector('.swatches').addEventListener('click', e => { const b = e.target.closest('.sw'); if (b) openSheet(f, f.colors[+b.dataset.i], +b.dataset.i); });
   markSwatches();
 }
@@ -594,18 +627,47 @@ function closeSheet(){ document.getElementById('sheet').hidden = true; }
 document.getElementById('sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeSheet(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
 
+const PATH_RE = /^\/telas\/([^\/]+)\/?$/;
+function curSlug(){ const m = location.pathname.match(PATH_RE); return m ? m[1] : ''; }
+function setMeta(title, desc, url){
+  document.title = title;
+  const set = (sel, attr, v) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, v); };
+  set('meta[name="description"]', 'content', desc);
+  set('link[rel="canonical"]', 'href', url);
+  set('meta[property="og:url"]', 'content', url);
+  set('meta[property="og:title"]', 'content', title);
+  set('meta[property="og:description"]', 'content', desc);
+}
 function route(){
-  const h = location.hash.slice(1);
-  const f = DATA.find(x => x.slug === h);
+  const f = DATA.find(x => x.slug === curSlug());
   document.getElementById('home').hidden = !!f;
   document.getElementById('detail').hidden = !f;
-  if (f) { renderDetail(f); document.title = f.name + ' · Telas E&M'; window.scrollTo(0,0); }
-  else { document.title = 'Telas E&M · Catálogo'; }
+  if (f) {
+    renderDetail(f); window.scrollTo(0,0);
+    setMeta(f.name + ' por metro y por rollo en Gamarra | Telas E&M', f.name + ' (' + f.comp + '): ' + f.colors.length + ' colores, S/ ' + f.pm + ' el metro y S/ ' + f.pr + ' por rollo. Pide por WhatsApp.', location.origin + '/telas/' + f.slug + '/');
+  } else {
+    setMeta('Telas en Gamarra por metro y por rollo | E&M Estilos y Tendencias', 'Telas importadas en Gamarra, Lima: licras, sastrería, linos, encajes y más. Desde 1 metro, precio por rollo, delivery y pedidos por WhatsApp.', location.origin + '/');
+  }
 }
-window.addEventListener('hashchange', route);
+function go(url){ history.pushState(null, '', url); route(); }
+window.addEventListener('popstate', route);
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href]');
+  if (!a || a.target === '_blank' || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+  const h = a.getAttribute('href');
+  if (h.startsWith('/telas/')) { e.preventDefault(); go(h); }
+  else if (a.hasAttribute('data-home')) {
+    e.preventDefault();
+    if (location.pathname !== '/') go('/'); else history.replaceState(null, '', '/');
+    const t = document.getElementById(h.split('#')[1] || ''); if (t) t.scrollIntoView(); else window.scrollTo(0, 0);
+  }
+  else if (h.startsWith('#') && h.length > 1) { const t = document.getElementById(h.slice(1)); if (t) { e.preventDefault(); t.scrollIntoView(); } }
+});
 
 fetch('catalogo.json').then(r => r.json()).then(d => {
-  DATA = d; renderGrid(); route(); renderCartBar();
+  DATA = d;
+  const hs = location.hash.slice(1); if (location.pathname === '/' && DATA.some(x => x.slug === hs)) history.replaceState(null, '', '/telas/' + hs + '/');
+  renderGrid(); route(); renderCartBar();
   document.getElementById('cartOpen').onclick = openCart;
   document.getElementById('upd').textContent = 'Precios y stock actualizados';
 }).catch(() => { document.getElementById('grid').innerHTML = '<p class="empty">No se pudo cargar el catálogo. Recarga la página.</p>'; });

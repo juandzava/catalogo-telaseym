@@ -881,7 +881,8 @@
         "agotado": false
       }
     ],
-    "rollo": "60 m"
+    "rollo": "60 m",
+    "nuevo": true
   },
   {
     "slug": "seda-bucare",
@@ -1393,7 +1394,8 @@
         "agotado": false
       }
     ],
-    "rollo": "60 m"
+    "rollo": "60 m",
+    "nuevo": true
   },
   {
     "slug": "gasa-bondi",
@@ -1484,7 +1486,8 @@
         "img": "img/gasa-bondi/11.jpg",
         "agotado": false
       }
-    ]
+    ],
+    "nuevo": true
   },
   {
     "slug": "licra-tachas",
@@ -2045,7 +2048,8 @@
         "img": "img/satin-sasha/12.jpg",
         "agotado": false
       }
-    ]
+    ],
+    "nuevo": true
   },
   {
     "slug": "bambula-caigua",
