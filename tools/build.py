@@ -59,9 +59,13 @@ for f in data:
     d = ROOT / 'telas' / f['slug']; d.mkdir(parents=True, exist_ok=True)
     (d / 'index.html').write_text(page(f), encoding='utf-8')
 
+import sys; sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build_pages
+extra = build_pages.write_all()
 urls = [f'  <url><loc>{SITE}/</loc><lastmod>{today}</lastmod><priority>1.0</priority></url>']
 for f in data:
     urls.append(f"  <url><loc>{SITE}/telas/{f['slug']}/</loc><lastmod>{today}</lastmod><priority>0.8</priority></url>")
+urls += [f'  <url><loc>{SITE}{p}</loc><lastmod>{today}</lastmod><priority>{pr}</priority></url>' for p, pr in extra]
 (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(urls) + '\n</urlset>\n', encoding='utf-8')
 
 (ROOT / '404.html').write_text('''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
