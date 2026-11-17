@@ -253,6 +253,15 @@ body:has(.cartbar:not([hidden])) footer{padding-bottom:72px}
 #home:not([hidden]),#detail:not([hidden]){animation:fadein .35s ease both}
 @keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
+.news{background:var(--soft);border-block:1px solid var(--line)}
+.news .wrap{padding-block:34px;display:grid;gap:18px;align-items:center}
+@media(min-width:820px){.news .wrap{grid-template-columns:1.1fr 1fr;gap:40px}}
+.news h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,42px);line-height:1;margin:0}
+.news h2 em{color:var(--green)}.news p{margin:8px 0 0;color:var(--muted)}
+.nf{display:grid;gap:10px}.nf input{font:inherit;font-size:16px;border:1px solid var(--line);border-radius:12px;padding:13px 14px;background:#fff;color:var(--navy);width:100%}
+.nf input:focus{outline:none;border-color:var(--green-2);box-shadow:0 0 0 3px rgba(100,169,87,.2)}
+.nf .btn-wa{width:100%;padding:14px;font-size:16px}.nf small{color:var(--muted);font-size:12.5px}
+
 .pg{max-width:760px;margin-inline:auto;padding:28px var(--gut) 56px}
 .pg h1{font-family:var(--f-display);font-weight:400;font-size:clamp(38px,7vw,58px);line-height:1;margin:6px 0 10px;text-wrap:balance}
 .pg h2{font-family:var(--f-display);font-weight:400;font-size:30px;line-height:1.1;margin:30px 0 8px}

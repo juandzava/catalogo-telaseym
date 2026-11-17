@@ -309,6 +309,15 @@ body:has(.cartbar:not([hidden])) footer{padding-bottom:72px}
 .related{padding-top:14px}
 #home:not([hidden]),#detail:not([hidden]){animation:fadein .35s ease both}
 @keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+.news{background:var(--soft);border-block:1px solid var(--line)}
+.news .wrap{padding-block:34px;display:grid;gap:18px;align-items:center}
+@media(min-width:820px){.news .wrap{grid-template-columns:1.1fr 1fr;gap:40px}}
+.news h2{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,42px);line-height:1;margin:0}
+.news h2 em{color:var(--green)}.news p{margin:8px 0 0;color:var(--muted)}
+.nf{display:grid;gap:10px}.nf input{font:inherit;font-size:16px;border:1px solid var(--line);border-radius:12px;padding:13px 14px;background:#fff;color:var(--navy);width:100%}
+.nf input:focus{outline:none;border-color:var(--green-2);box-shadow:0 0 0 3px rgba(100,169,87,.2)}
+.nf .btn-wa{width:100%;padding:14px;font-size:16px}.nf small{color:var(--muted);font-size:12.5px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Savahana", "description": "Savahana (95% poliéster / 5% spandex): 17 colores, S/ 8 el metro y S/ 7 por rollo. Pide por WhatsApp en Telas E&M, Gamarra.", "image": ["https://telaseym.com/img/savahana/portada.jpg", "https://telaseym.com/img/savahana/01.jpg", "https://telaseym.com/img/savahana/02.jpg", "https://telaseym.com/img/savahana/03.jpg", "https://telaseym.com/img/savahana/04.jpg", "https://telaseym.com/img/savahana/05.jpg"], "brand": {"@type": "Brand", "name": "Telas E&M"}, "material": "95% poliéster / 5% spandex", "category": "Telas", "offers": {"@type": "Offer", "url": "https://telaseym.com/telas/savahana/", "priceCurrency": "PEN", "price": "8", "availability": "https://schema.org/InStock", "seller": {"@id": "https://telaseym.com/#negocio"}}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Telas E&M", "item": "https://telaseym.com/"}, {"@type": "ListItem", "position": 2, "name": "Savahana", "item": "https://telaseym.com/telas/savahana/"}]}</script>
@@ -353,6 +362,12 @@ body:has(.cartbar:not([hidden])) footer{padding-bottom:72px}
 
   <section class="detail" id="detail"><div class="wrap"><a class="back" href="/#telas" data-home>← Todas las telas</a><div class="dh" style="display:block"><div class="eyebrow">SASTRERÍA · COLOR ENTERO</div><h1>Savahana</h1><p>S/ 8 el metro · S/ 7 por rollo · 95% poliéster / 5% spandex · Ancho 1.60 m</p><p>Ideal para: palazzos, blusas, vestidos y enterizos</p><h2>17 colores</h2><ul><li>01 Negro</li><li>02 Vino</li><li>03 Botella</li><li>04 Botella claro</li><li>05 Loro</li><li>06 Rojo</li><li>07 Azulino</li><li>08 Camello</li><li>09 Beige</li><li>10 Fucsia</li><li>11 Barney</li><li>12 Palo rosa</li><li>13 Lila</li><li>14 Cemento</li><li>15 Amarillo</li><li>16 Turquesa</li><li>17 Perla</li></ul></div></div></section>
 </main>
+
+<section class="news" id="novedades"><div class="wrap">
+  <div><h2>Entérate primero de las <em>telas nuevas</em></h2><p>Te avisamos por WhatsApp cuando llegan telas y colores nuevos o hay ofertas. Sin spam.</p></div>
+  <form class="nf" id="newsForm"><input name="nombre" placeholder="Tu nombre" autocomplete="name" required><input name="tel" type="tel" inputmode="tel" placeholder="Tu WhatsApp (ej. 987654321)" autocomplete="tel" required>
+  <button class="btn-wa" type="submit">Quiero recibir novedades</button><small>Al enviar, se abre WhatsApp con tu mensaje. Puedes pedir que dejemos de escribirte cuando quieras.</small></form>
+</div></section>
 
 <section class="info">
   <div class="wrap">
@@ -400,6 +415,7 @@ const BANKS = [
   ['Caja Piura', [['Soles','210-01-1384062',''],['Dólares','210-02-3002440','']]]
 ];
 const ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>';
+const track = (n, p) => { try { gtag('event', n, p || {}); } catch (_) {} };
 const waLink = t => 'https://wa.me/' + WA + '?text=' + encodeURIComponent(t);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
@@ -451,6 +467,14 @@ document.getElementById('chips').addEventListener('click', e => {
   renderGrid();
 });
 document.getElementById('q').addEventListener('input', renderGrid);
+let _qt; document.getElementById('q').addEventListener('input', e => { clearTimeout(_qt); _qt = setTimeout(() => { const v = e.target.value.trim(); if (v.length > 2) track('search', {search_term: v}); }, 900); });
+document.getElementById('newsForm').addEventListener('submit', e => {
+  e.preventDefault(); const f = e.target;
+  const nombre = f.nombre.value.trim(), tel = f.tel.value.trim();
+  track('generate_lead', {origen: 'novedades'});
+  window.open(waLink('Hola, soy ' + nombre + '. Quiero recibir novedades de telas nuevas y ofertas de Telas E&M. Mi WhatsApp: ' + tel), '_blank');
+  f.reset(); toast('¡Gracias! Envía el mensaje en WhatsApp para completar');
+});
 
 function renderGrid(){
   const q = norm(document.getElementById('q').value.trim());
@@ -477,6 +501,7 @@ function related(f){
   return [...same, ...rest].slice(0, 4);
 }
 function shareFabric(f){
+  track('share', {item_id: f.slug});
   const url = location.origin + '/telas/' + f.slug + '/';
   const text = f.name + ' · S/ ' + f.pm + ' el metro · Telas E&M';
   if (navigator.share) { navigator.share({title: f.name, text, url}).catch(() => {}); return; }
@@ -581,7 +606,7 @@ function openSheet(f, c, i){
     box.querySelector('#shAdd').onclick = () => {
       const item = { k, slug: f.slug, fabric: f.name, code: c.code, name: c.name, img: c.img, qty, unit, pm: f.pm };
       const j = CART.findIndex(x => x.k === k); if (j >= 0) CART[j] = item; else CART.push(item);
-      saveCart(); closeSheet(); toast(`Agregado: ${f.name} · ${c.code ? c.code + ' ' : ''}${c.name}`);
+      track('add_to_cart', {item_id: f.slug, item_name: f.name, item_variant: c.name, quantity: qty, unit}); saveCart(); closeSheet(); toast(`Agregado: ${f.name} · ${c.code ? c.code + ' ' : ''}${c.name}`);
     };
     const del = box.querySelector('#shDel');
     if (del) del.onclick = () => { CART = CART.filter(x => x.k !== k); saveCart(); closeSheet(); toast('Quitado del pedido'); };
@@ -647,6 +672,7 @@ function route(){
   document.getElementById('detail').hidden = !f;
   if (f) {
     renderDetail(f); window.scrollTo(0,0);
+    track('view_item', {item_id: f.slug, item_name: f.name, item_category: f.cat, value: f.pm, currency: 'PEN'});
     setMeta(f.name + ' por metro y por rollo en Gamarra | Telas E&M', f.name + ' (' + f.comp + '): ' + f.colors.length + ' colores, S/ ' + f.pm + ' el metro y S/ ' + f.pr + ' por rollo. Pide por WhatsApp.', location.origin + '/telas/' + f.slug + '/');
   } else {
     setMeta('Telas en Gamarra por metro y por rollo | E&M Estilos y Tendencias', 'Telas importadas en Gamarra, Lima: licras, sastrería, linos, encajes y más. Desde 1 metro, precio por rollo, delivery y pedidos por WhatsApp.', location.origin + '/');
